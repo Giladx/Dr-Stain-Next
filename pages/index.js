@@ -176,7 +176,7 @@ const Home = (props) => {
                 <br className="Section-Heading"></br>
               </h1>
               <span className="home-text018">
-                <span>אורתופד מומחה ברפואת כאב</span>
+                <span>אורתופד כירורג מומחה ברפואת כאב</span>
                 <br className="Section-Text"></br>
                 <span>סובלים מכאבים?</span>
                 <br className="Section-Text"></br>
@@ -187,14 +187,13 @@ const Home = (props) => {
                 <path d="M731.429 640v-109.714c0-10.286-8-18.286-18.286-18.286h-128v-128c0-10.286-8-18.286-18.286-18.286h-109.714c-10.286 0-18.286 8-18.286 18.286v128h-128c-10.286 0-18.286 8-18.286 18.286v109.714c0 10.286 8 18.286 18.286 18.286h128v128c0 10.286 8 18.286 18.286 18.286h109.714c10.286 0 18.286-8 18.286-18.286v-128h128c10.286 0 18.286-8 18.286-18.286zM365.714 219.429h292.571v-73.143h-292.571v73.143zM146.286 219.429v731.429h-18.286c-70.286 0-128-57.714-128-128v-475.429c0-70.286 57.714-128 128-128h18.286zM822.857 219.429v731.429h-621.714v-731.429h91.429v-91.429c0-30.286 24.571-54.857 54.857-54.857h329.143c30.286 0 54.857 24.571 54.857 54.857v91.429h91.429zM1024 347.429v475.429c0 70.286-57.714 128-128 128h-18.286v-731.429h18.286c70.286 0 128 57.714 128 128z"></path>
               </svg>
               <span className="home-text025">
-                <span>
-                  מעל-30 שנים הצלחה וטיפול באלפי מטופלים ראש מחלקה אורתופדית
-                  בארה&quot;ב בעבר
-                </span>
+                <span>מעל-36 שנים של הצלחה וטיפול באלפי מטופלים</span>
+                <br></br>
+                <span> ראש מחלקה אורתופדית בארה&quot;ב בעבר</span>
                 <br className="Section-Text"></br>
               </span>
               <a href="tel:+972542233177" className="home-cta-btn2 button">
-                <span className="home-text028">
+                <span className="home-text030">
                   <span>054-2233-177</span>
                   <br className="Anchor"></br>
                 </span>
@@ -204,7 +203,7 @@ const Home = (props) => {
         </div>
         <div id="inspiration" className="home-features">
           <div className="home-heading-container">
-            <h2 className="home-text031">
+            <h2 className="home-text033">
               <span>תחומי ההתמחות</span>
               <br className="Section-Heading"></br>
             </h2>
@@ -250,7 +249,9 @@ const Home = (props) => {
                   />
                 </div>
                 <div className="home-text-container02">
-                  <span className="home-heading03">ריפוי חדשני בזרמי חשמל</span>
+                  <span className="home-heading03">
+                    טיפול בהקרנת כאבים לרגליים
+                  </span>
                 </div>
               </div>
             </animate-on-reveal>
@@ -306,7 +307,7 @@ const Home = (props) => {
                 data-thq-animate-on-reveal="true"
                 className="home-cta-btn3 button"
               >
-                <span className="home-text038">
+                <span className="home-text040">
                   <span>054-2233-177</span>
                   <br className="Anchor"></br>
                 </span>
@@ -319,11 +320,11 @@ const Home = (props) => {
           <div className="home-max-width thq-section-max-width">
             <div className="home-section-title">
               <div className="home-content2">
-                <h2 className="home-text041 thq-heading-2">
+                <h2 className="home-text043 thq-heading-2">
                   <span>אודות ד&quot;ר שלדון שטיין</span>
                   <br></br>
                 </h2>
-                <p className="home-text044 thq-body-large">
+                <p className="home-text046 thq-body-large">
                   <span>
                     ד”ר שלדון שטיין הינו מומחה לכירורגיה אורתופדית, בעל מרפאה
                     פרטית ברמת גן.
@@ -347,7 +348,7 @@ const Home = (props) => {
                   className="home-placeholder-image thq-img-round thq-img-ratio-1-1"
                 />
                 <div className="home-content3">
-                  <span className="home-text048 thq-body-small">
+                  <span className="home-text050 thq-body-small">
                     <span>
                       התמחה בכירורגיה אורתופדית בבית החולים אלברט איינשטיין בעיר
                       ניו יורק והיה ראש מחלקת אורתופדיה בפילדלפיה, ארה&quot;ב.
@@ -386,7 +387,7 @@ const Home = (props) => {
                   data-thq-animate-on-reveal="true"
                   className="home-cta-btn4 button"
                 >
-                  <span className="home-text059">
+                  <span className="home-text061">
                     <span>054-2233-177</span>
                     <br className="Anchor"></br>
                   </span>
@@ -398,7 +399,7 @@ const Home = (props) => {
         <div className="home-section-separator1"></div>
         <div className="home-qua">
           <animate-on-reveal duration="1500ms">
-            <span data-thq-animate-on-reveal="true" className="home-text062">
+            <span data-thq-animate-on-reveal="true" className="home-text064">
               &quot;בכל שנות עבודתי כרופא, הוכשרתי מקצועית בעשרות קורסים ולימודי
               המשך בתחום אורטופדיה , ואף כפוסק אורטופדיה בביטוח לאומי.&quot;
             </span>
@@ -407,7 +408,7 @@ const Home = (props) => {
         <div className="home-section-separator2"></div>
         <div className="home-lang">
           <div className="home-title">
-            <span className="home-text063">
+            <span className="home-text065">
               ד&quot;ר שלדון שטיין נותן שירות בשפות:
             </span>
           </div>
@@ -415,11 +416,11 @@ const Home = (props) => {
             <svg viewBox="0 0 877.7142857142857 1024" className="home-icon12">
               <path d="M373.714 616c-1.143 4-29.143-9.143-36.571-12-7.429-3.429-41.143-22.286-49.714-28s-41.143-32.571-45.143-34.286v0c-20.571 31.429-46.857 68.571-76.571 103.429-10.286 12-41.143 50.857-60 62.857-2.857 1.714-19.429 3.429-21.714 2.286 9.143-6.857 35.429-39.429 46.857-52.571 14.286-16.571 82.286-111.429 93.714-133.143 12-21.714 48-93.714 49.714-100.571-5.714-0.571-50.857 14.857-62.857 18.857-11.429 3.429-42.857 10.857-45.143 12.571-2.286 2.286-0.571 9.143-1.714 11.429s-11.429 7.429-17.714 8.571c-5.714 1.714-18.857 2.286-26.857 0-7.429-1.714-14.286-9.143-16-12 0 0-2.286-3.429-2.857-13.143 6.857-2.286 18.286-2.857 30.857-6.286s43.429-12.571 60-18.286 48.571-17.714 58.286-20c10.286-1.714 36-18.857 49.714-23.429s23.429-10.286 24-7.429 0 15.429-0.571 18.857c-0.571 2.857-28 56.571-32 65.143-2.286 4.571-18.286 34.857-44 74.857 9.143 4 28.571 12 36.571 16 9.714 4.571 77.714 33.143 81.143 34.286s9.714 27.429 8.571 32zM256.571 338.286c1.714 9.714-1.143 13.714-2.286 16-5.714 10.857-20 18.286-28.571 21.714s-22.857 6.857-34.286 6.857c-5.143-0.571-15.429-2.286-28-14.857-6.857-7.429-12-27.429-9.714-25.143s18.857 4.571 26.286 2.857 25.143-6.857 33.143-9.143c8.571-2.857 25.714-7.429 31.429-8 5.714 0 10.286 2.286 12 9.714zM655.429 412l36 129.714-79.429-24zM22.286 869.143l396.571-132.571v-589.714l-396.571 133.143v589.143zM731.429 688l58.286 17.714-103.429-375.429-57.143-17.714-123.429 306.286 58.286 17.714 25.714-62.857 120.571 37.143zM444 138.286l327.429 105.143v-217.143zM621.714 894.286l90.286 7.429-30.857 91.429-22.857-37.714c-46.286 29.714-103.429 52.571-157.714 61.714-16.571 3.429-35.429 6.857-52 6.857h-48c-60.571 0-170.857-36-218.857-70.857-3.429-2.857-4.571-5.143-4.571-9.143 0-6.286 4.571-10.857 10.286-10.857 5.143 0 32 16.571 39.429 20 51.429 25.714 123.429 49.143 181.143 49.143 71.429 0 120-9.143 185.143-37.143 18.857-8.571 35.429-19.429 53.143-29.143zM877.714 277.714v616.571c-441.714-140.571-442.286-140.571-442.286-140.571-9.143 4-418.857 142.286-424.571 142.286-4.571 0-8.571-2.857-10.286-7.429 0-0.571-0.571-1.143-0.571-1.714v-616c0.571-1.714 1.143-4.571 2.286-5.714 3.429-4 8-5.143 11.429-6.286 1.714-0.571 36.571-12 85.143-28.571v-219.429l318.857 113.143c4-1.143 359.429-124 364.571-124 6.286 0 11.429 4.571 11.429 12v238.857z"></path>
             </svg>
-            <span className="home-text064">עברית</span>
-            <span className="home-text065">אנגלית</span>
-            <span className="home-text066">רוסית</span>
-            <span className="home-text067">צרפתית</span>
-            <span className="home-text068">יידיש</span>
+            <span className="home-text066">עברית</span>
+            <span className="home-text067">אנגלית</span>
+            <span className="home-text068">רוסית</span>
+            <span className="home-text069">צרפתית</span>
+            <span className="home-text070">יידיש</span>
           </div>
           <animate-on-reveal>
             <div
@@ -436,7 +437,7 @@ const Home = (props) => {
           />
         </div>
         <div id="contact2" className="home-get-in-touch">
-          <h2 className="home-text069">
+          <h2 className="home-text071">
             <span>צרו קשר עכשיו</span>
             <br></br>
           </h2>
@@ -457,7 +458,7 @@ iframe{height:320px !important;}
         <div className="home-call-now">
           <div className="home-content6"></div>
           <a href="tel:+972542233177" className="home-cta-btn5 button">
-            <span className="home-text072">
+            <span className="home-text074">
               <span>054-2233-177</span>
               <br className="Anchor"></br>
             </span>
@@ -465,21 +466,21 @@ iframe{height:320px !important;}
         </div>
         <div id="treatments" className="home-expert">
           <img
+            alt="image"
             sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
             src="/paperbg-1500w.webp"
-            alt="image"
             srcSet="/paperbg-1500w.webp 1200w, /paperbg-tablet.webp 800w, /paperbg-mobile.webp 480w"
             className="home-image12"
           />
           <div className="home-container4"></div>
-          <span className="home-text075">
+          <span className="home-text077">
             <span>ד”ר שטיין משתמש ברפואה ובשיטות מתקדמות,</span>
             <br></br>
             <span>
               מטפל במגוון רחב של בעיות ומחלות רפואיות עם אחוזי הצלחה גבוהים
             </span>
           </span>
-          <span className="home-text079">
+          <span className="home-text081">
             <span>לד”ר שטיין גישה חדשנית הכוללת מגוון של טיפולים</span>
             <br></br>
             <span>לריפוי סוגים שונים של כאבים הכוללים בין היתר:</span>
@@ -532,10 +533,7 @@ iframe{height:320px !important;}
             </div>
             <div className="home-features-card12">
               <div className="home-text-container12">
-                <span className="home-heading13">
-                  <span>מיגרנות</span>
-                  <br></br>
-                </span>
+                <span className="home-heading13">כאבי גב המקרינים לרגליים</span>
               </div>
             </div>
             <div className="home-features-card13">
@@ -1138,7 +1136,7 @@ iframe{height:320px !important;}
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text028 {
+          .home-text030 {
             font-size: 35px;
             font-family: 'Open Sans';
           }
@@ -1161,7 +1159,7 @@ iframe{height:320px !important;}
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text031 {
+          .home-text033 {
             font-size: 4rem;
             font-style: normal;
             text-align: center;
@@ -1289,9 +1287,6 @@ iframe{height:320px !important;}
           }
           .home-heading03 {
             font-size: 30px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 500;
           }
           .home-features-card03 {
             width: 30%;
@@ -1430,7 +1425,7 @@ iframe{height:320px !important;}
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text038 {
+          .home-text040 {
             font-size: 35px;
             font-family: 'Open Sans';
           }
@@ -1469,13 +1464,13 @@ iframe{height:320px !important;}
             align-items: center;
             flex-direction: column;
           }
-          .home-text041 {
+          .home-text043 {
             font-size: 4em;
             font-style: normal;
             font-family: 'Karantina';
             font-weight: 700;
           }
-          .home-text044 {
+          .home-text046 {
             font-size: 2em;
             font-style: normal;
             font-family: 'Open Sans';
@@ -1502,7 +1497,7 @@ iframe{height:320px !important;}
             align-items: center;
             flex-direction: column;
           }
-          .home-text048 {
+          .home-text050 {
             overflow: auto;
             font-size: 30px;
             font-style: normal;
@@ -1542,7 +1537,7 @@ iframe{height:320px !important;}
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text059 {
+          .home-text061 {
             font-size: 35px;
             font-family: 'Open Sans';
           }
@@ -1568,7 +1563,7 @@ iframe{height:320px !important;}
             padding-bottom: var(--dl-space-space-tenunits);
             justify-content: center;
           }
-          .home-text062 {
+          .home-text064 {
             width: 100%;
             font-size: 3.7em;
             align-self: center;
@@ -1608,7 +1603,7 @@ iframe{height:320px !important;}
             padding-right: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .home-text063 {
+          .home-text065 {
             font-size: 4em;
             font-style: normal;
             font-family: 'Karantina';
@@ -1631,24 +1626,10 @@ iframe{height:320px !important;}
             height: 4em;
             margin-left: var(--dl-space-space-tenunits);
           }
-          .home-text064 {
-            fill: var(--dl-color-theme-secondary1);
-            color: var(--dl-color-theme-secondary1);
-            width: auto;
-            font-size: 5em;
-            font-family: 'Karantina';
-            margin-left: var(--dl-space-space-tenunits);
-          }
-          .home-text065 {
-            fill: var(--dl-color-theme-secondary1);
-            color: var(--dl-color-theme-secondary1);
-            font-size: 5em;
-            font-family: 'Karantina';
-            margin-left: var(--dl-space-space-tenunits);
-          }
           .home-text066 {
             fill: var(--dl-color-theme-secondary1);
             color: var(--dl-color-theme-secondary1);
+            width: auto;
             font-size: 5em;
             font-family: 'Karantina';
             margin-left: var(--dl-space-space-tenunits);
@@ -1661,6 +1642,20 @@ iframe{height:320px !important;}
             margin-left: var(--dl-space-space-tenunits);
           }
           .home-text068 {
+            fill: var(--dl-color-theme-secondary1);
+            color: var(--dl-color-theme-secondary1);
+            font-size: 5em;
+            font-family: 'Karantina';
+            margin-left: var(--dl-space-space-tenunits);
+          }
+          .home-text069 {
+            fill: var(--dl-color-theme-secondary1);
+            color: var(--dl-color-theme-secondary1);
+            font-size: 5em;
+            font-family: 'Karantina';
+            margin-left: var(--dl-space-space-tenunits);
+          }
+          .home-text070 {
             fill: var(--dl-color-theme-secondary1);
             color: var(--dl-color-theme-secondary1);
             font-size: 5em;
@@ -1705,7 +1700,7 @@ iframe{height:320px !important;}
             padding-bottom: var(--dl-space-space-fiveunits);
             justify-content: flex-start;
           }
-          .home-text069 {
+          .home-text071 {
             font-size: 3rem;
             text-align: center;
             font-family: 'Karantina';
@@ -1755,7 +1750,7 @@ iframe{height:320px !important;}
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text072 {
+          .home-text074 {
             font-size: 35px;
             font-family: 'Open Sans';
           }
@@ -1802,7 +1797,7 @@ iframe{height:320px !important;}
               rgb(245, 245, 245) 51%
             );
           }
-          .home-text075 {
+          .home-text077 {
             width: 100%;
             z-index: 20;
             font-size: 3em;
@@ -1813,7 +1808,7 @@ iframe{height:320px !important;}
             font-weight: 300;
             line-height: 1;
           }
-          .home-text079 {
+          .home-text081 {
             width: 100%;
             z-index: 20;
             font-size: 3.5em;
@@ -2530,7 +2525,7 @@ iframe{height:320px !important;}
               margin-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-text063 {
+            .home-text065 {
               font-size: 4em;
               line-height: 1.2;
             }
@@ -2538,20 +2533,20 @@ iframe{height:320px !important;}
               width: 4em;
               margin-left: var(--dl-space-space-fiveunits);
             }
-            .home-text064 {
-              font-size: 4.3em;
-            }
-            .home-text065 {
-              font-size: 4.3em;
-            }
             .home-text066 {
               font-size: 4.3em;
-              margin-left: var(--dl-space-space-fiveunits);
             }
             .home-text067 {
               font-size: 4.3em;
             }
             .home-text068 {
+              font-size: 4.3em;
+              margin-left: var(--dl-space-space-fiveunits);
+            }
+            .home-text069 {
+              font-size: 4.3em;
+            }
+            .home-text070 {
               font-size: 4.3em;
             }
             .home-get-in-touch {
@@ -2742,7 +2737,7 @@ iframe{height:320px !important;}
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-text062 {
+            .home-text064 {
               font-size: 3em;
               align-self: center;
               font-family: Bellefair;
@@ -2753,7 +2748,7 @@ iframe{height:320px !important;}
             .home-title {
               width: 100%;
             }
-            .home-text063 {
+            .home-text065 {
               fill: var(--dl-color-theme-neutral-light);
               color: var(--dl-color-theme-neutral-light);
               width: 100%;
@@ -2774,7 +2769,7 @@ iframe{height:320px !important;}
                 rgba(255, 255, 255, 0.8) 100%
               );
             }
-            .home-text069 {
+            .home-text071 {
               margin-bottom: 0px;
             }
             .home-call-now {
@@ -2786,10 +2781,10 @@ iframe{height:320px !important;}
               align-items: center;
               justify-content: center;
             }
-            .home-text075 {
+            .home-text077 {
               font-size: 2em;
             }
-            .home-text079 {
+            .home-text081 {
               font-size: 3em;
               margin-bottom: var(--dl-space-space-tenunits);
             }
@@ -3007,10 +3002,10 @@ iframe{height:320px !important;}
             .home-heading06 {
               font-size: 20px;
             }
-            .home-text038 {
+            .home-text040 {
               font-size: 24px;
             }
-            .home-text059 {
+            .home-text061 {
               font-size: 24px;
             }
             .home-get-in-touch {
@@ -3019,7 +3014,7 @@ iframe{height:320px !important;}
             .home-container2 {
               height: 280px;
             }
-            .home-text072 {
+            .home-text074 {
               font-size: 24px;
             }
             .home-features-card06 {
@@ -3231,10 +3226,10 @@ iframe{height:320px !important;}
             .home-card {
               width: 100%;
             }
-            .home-text048 {
+            .home-text050 {
               font-size: 25px;
             }
-            .home-text063 {
+            .home-text065 {
               margin-left: var(--dl-space-space-halfunit);
             }
             .home-langs {
@@ -3246,14 +3241,6 @@ iframe{height:320px !important;}
               display: none;
               margin-left: 0px;
             }
-            .home-text064 {
-              margin: 0px;
-              text-align: center;
-            }
-            .home-text065 {
-              margin: 0px;
-              text-align: center;
-            }
             .home-text066 {
               margin: 0px;
               text-align: center;
@@ -3263,6 +3250,14 @@ iframe{height:320px !important;}
               text-align: center;
             }
             .home-text068 {
+              margin: 0px;
+              text-align: center;
+            }
+            .home-text069 {
+              margin: 0px;
+              text-align: center;
+            }
+            .home-text070 {
               margin: 0px;
               text-align: center;
             }
@@ -3464,7 +3459,7 @@ iframe{height:320px !important;}
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .home-text038 {
+            .home-text040 {
               font-size: 34px;
             }
             .home-team8 {
@@ -3476,15 +3471,15 @@ iframe{height:320px !important;}
             .home-max-width {
               padding: 0px;
             }
-            .home-text041 {
+            .home-text043 {
               text-align: center;
             }
-            .home-text044 {
+            .home-text046 {
               font-size: 1.8em;
               text-align: center;
               margin-bottom: var(--dl-space-space-doubleunit);
             }
-            .home-text048 {
+            .home-text050 {
               font-size: 1.3em;
             }
             .home-content4 {
@@ -3495,13 +3490,13 @@ iframe{height:320px !important;}
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .home-text059 {
+            .home-text061 {
               font-size: 34px;
             }
-            .home-text062 {
+            .home-text064 {
               font-size: 2em;
             }
-            .home-text063 {
+            .home-text065 {
               font-size: 3em;
               margin-left: 0px;
             }
@@ -3529,7 +3524,7 @@ iframe{height:320px !important;}
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .home-text072 {
+            .home-text074 {
               font-size: 34px;
             }
             .home-container5 {
