@@ -190,7 +190,6 @@
   padding: var(--dl-space-space-fiveunits);
   position: relative;
   align-items: center;
-  flex-direction: column;
 }
 .thq-section-max-width {
   width: 100%;

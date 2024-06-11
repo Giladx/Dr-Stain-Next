@@ -300,7 +300,7 @@ const Home = (props) => {
             </animate-on-reveal>
           </div>
           <div className="home-content">
-            <div className="home-content1"></div>
+            <div className="home-content01"></div>
             <animate-on-reveal>
               <a
                 href="tel:+972542233177"
@@ -319,7 +319,7 @@ const Home = (props) => {
         <div id="about" className="home-team8 thq-section-padding">
           <div className="home-max-width thq-section-max-width">
             <div className="home-section-title">
-              <div className="home-content2">
+              <div className="home-content02">
                 <h2 className="home-text043 thq-heading-2">
                   <span>אודות ד&quot;ר שלדון שטיין</span>
                   <br></br>
@@ -347,7 +347,7 @@ const Home = (props) => {
                   srcSet="/whatsapp-image-2022-06-07-at-4.11.54-pm-1500w.webp 1200w, /whatsapp-image-2022-06-07-at-4.11.54-pm-tablet.webp 800w, /whatsapp-image-2022-06-07-at-4.11.54-pm-mobile.webp 480w"
                   className="home-placeholder-image thq-img-round thq-img-ratio-1-1"
                 />
-                <div className="home-content3">
+                <div className="home-content03">
                   <span className="home-text050 thq-body-small">
                     <span>
                       התמחה בכירורגיה אורתופדית בבית החולים אלברט איינשטיין בעיר
@@ -379,8 +379,8 @@ const Home = (props) => {
                 <div className="home-social-icons"></div>
               </div>
             </div>
-            <div className="home-content4">
-              <div className="home-content5"></div>
+            <div className="home-content04">
+              <div className="home-content05"></div>
               <animate-on-reveal>
                 <a
                   href="tel:+972542233177"
@@ -456,7 +456,7 @@ iframe{height:320px !important;}
           </div>
         </div>
         <div className="home-call-now">
-          <div className="home-content6"></div>
+          <div className="home-content06"></div>
           <a href="tel:+972542233177" className="home-cta-btn5 button">
             <span className="home-text074">
               <span>054-2233-177</span>
@@ -566,22 +566,31 @@ iframe{height:320px !important;}
             <br></br>
           </span>
           <span className="home-text106">
+            <span>הטיפול היעיל בארץ להקלת כאבים המוקרנים לרגליים מהגב</span>
+            <br></br>
+            <span>אחד הטיפולים היעילים בעולם לכאבים וכאבי גב</span>
+            <br></br>
             <span>
-              טיפול באוזון ברקמות עמוקות פירושו הכנסה של חמצן מרוכז O3 – אוזון
-              לאזור הכואב בצורה נרחבת להשפעה עמוקה ומרחבית. חמצן הוא אחד הגזים
-              המרפאים ביותר בעולם לריפוי מהיר ואיכותי, בדומה לשימוש בחמצן בתא
-              לחץ אשר מוזרם אחוזי חמצן גבוהים דרך נשימה. איך הטיפול פועל
-              ומרגיש…. כבר לאחר הטיפול הראשון יהיו לך בין 2-4 שעות של הקלה
-              משמעותית בכאבים או העלמתן לחלוטין! למחרת היום הכאבים יהיו חזקים
-              יותר וזה עקב פעולת האוזון והריפוי באזור המטופל. יומיים לאחר הטיפול
-              הכאבים ירדו בהדרגה יותר ויותר מיום ליום עד הטיפול הבא. הטיפול הוא
-              פעם בשבוע למשך 5-8 שבועות. כל מקרה לגופו – בהתאם לריפוי הכאב שלך –
-              אתם מחליטים. הכנסת האוזון לגוף מבוצעת על ידי זריקה מקומית, הזריקה
-              היא לא לעמוד השדרה אלה לשרירים ההיקפיים מסביב. הזריקה כואבת בדומה
-              לזריקת הרדמה של רופא שיניים ​
+              ד&quot;ר שטיין היחיד בארץ עם הטיפול באוזון באופן אורתופדי
             </span>
             <br></br>
+            <span>
+              אוזון הוא גז מרוכז בחמצן o3
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
             <br></br>
+            <span>
+              חמצן הכרחי לריפוי
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
           </span>
           <div className="home-over-lay"></div>
           <img
@@ -595,16 +604,16 @@ iframe{height:320px !important;}
         <div className="home-section-separator3"></div>
         <div className="home-card1">
           <div className="home-business">
-            <span className="home-text110">
+            <span className="home-text116">
               ד&quot;ר שלדון שטיין, מומחה לכירורגיה אורטופדית
             </span>
-            <span className="home-text111">
+            <span className="home-text117">
               לאחר ניסיון בטיפול באלפי אנשים בארה״ב, הביא ארצה שיטות חדשניות
               לטיפול בכאבי גב והתוצאות מרשימות!
             </span>
-            <span className="home-text112">למידע נוסף וייעוץ, חייגו</span>
+            <span className="home-text118">למידע נוסף וייעוץ, חייגו</span>
             <a href="tel:+972542233177" className="home-cta-btn7 button">
-              <span className="home-text113">
+              <span className="home-text119">
                 <span>054-2233-177</span>
                 <br className="Anchor"></br>
               </span>
@@ -619,7 +628,8 @@ iframe{height:320px !important;}
               data-loop="false"
               data-autoplay="false"
               data-navigation="true"
-              data-pagination="true"
+              data-pagination="false"
+              data-reverse-direction="false"
               className="home-slider swiper"
             >
               <div data-thq="slider-wrapper" className="swiper-wrapper">
@@ -627,9 +637,9 @@ iframe{height:320px !important;}
                   data-thq="slider-slide"
                   className="home-slider-slide swiper-slide"
                 >
-                  <div className="home-content7">
-                    <h1 className="home-text116">לדר. שטיין שלדון,</h1>
-                    <p className="home-text117 thq-body-large">
+                  <div className="home-content07">
+                    <h1 className="home-text122">לדר. שטיין שלדון,</h1>
+                    <p className="home-text123 thq-body-large">
                       <span>
                         סבלתי משך יותר מ 10 שנים מכאבי גב ותמיד האורתופדים
                         השונים שלחו אותי לפיזיותרפיה בטענה שעם הגיל (77) יש
@@ -649,6 +659,72 @@ iframe{height:320px !important;}
                     </p>
                   </div>
                 </div>
+                <div
+                  data-thq="slider-slide"
+                  className="home-slider-slide1 swiper-slide"
+                >
+                  <div className="home-content08">
+                    <h1 className="home-text131">ד&quot;ר שטיין שלום,</h1>
+                    <p className="home-text132 thq-body-large">
+                      <span>
+                        אני רוצה להודות לך על שהעלמת לי את כאבי הגב ואת הכאבים
+                        המקרינים לרגליים.
+                      </span>
+                      <br></br>
+                      <span>
+                        אני מתעורר בבוקר ואין לי כאבים, אני יכול ישר להתיישר
+                        וללכת רגיל בלי כאבים.
+                      </span>
+                      <br></br>
+                      <span>אני ממש ממש מודה לך וממליץ לכולם.</span>
+                      <br></br>
+                      <span>בכבוד רב,</span>
+                      <br></br>
+                      <span>רוני סער</span>
+                      <br></br>
+                    </p>
+                  </div>
+                </div>
+                <div
+                  data-thq="slider-slide"
+                  className="home-slider-slide2 swiper-slide"
+                >
+                  <div className="home-content09">
+                    <h1 className="home-text143">לדר. שטיין שלדון,</h1>
+                    <p className="home-text144 thq-body-large">
+                      <span>
+                        בגיל 45 פתאום להיות עם פריצת דיסק מלווה בכאבים כל היום
+                        היה פשוט סיוט.
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <br></br>
+                      <span>
+                        חיפשתי פתרונות והודות לטיפול של ד&quot;ר שטיין אני חזרתי
+                        לעשות ספורט ואין לי כאבים בכלל
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <br></br>
+                      <span>
+                        חזרתי לחייך ולחיות כפי שהייתי בעבר
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <br></br>
+                      <span>תודה רבה</span>
+                    </p>
+                  </div>
+                </div>
               </div>
               <div
                 data-thq="slider-pagination"
@@ -657,6 +733,14 @@ iframe{height:320px !important;}
                 <div
                   data-thq="slider-pagination-bullet"
                   className="swiper-pagination-bullet swiper-pagination-bullet-active"
+                ></div>
+                <div
+                  data-thq="slider-pagination-bullet"
+                  className="swiper-pagination-bullet"
+                ></div>
+                <div
+                  data-thq="slider-pagination-bullet"
+                  className="swiper-pagination-bullet"
                 ></div>
               </div>
               <div
@@ -672,7 +756,7 @@ iframe{height:320px !important;}
         </div>
         <div className="home-section-separator5"></div>
         <div id="contact" className="home-get-in-touch1">
-          <h2 className="home-text125">
+          <h2 className="home-text152">
             <span>צרו קשר עכשיו</span>
             <br></br>
           </h2>
@@ -1406,7 +1490,7 @@ iframe{height:320px !important;}
             align-items: center;
             flex-direction: column;
           }
-          .home-content1 {
+          .home-content01 {
             gap: var(--dl-space-space-unit);
             border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
@@ -1457,7 +1541,7 @@ iframe{height:320px !important;}
             flex-shrink: 0;
             flex-direction: column;
           }
-          .home-content2 {
+          .home-content02 {
             gap: 24px;
             display: flex;
             align-self: stretch;
@@ -1491,7 +1575,7 @@ iframe{height:320px !important;}
           .home-placeholder-image {
             width: 70%;
           }
-          .home-content3 {
+          .home-content03 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: center;
@@ -1511,14 +1595,14 @@ iframe{height:320px !important;}
             display: flex;
             align-items: flex-start;
           }
-          .home-content4 {
+          .home-content04 {
             width: 100%;
             display: flex;
             max-width: 800px;
             align-items: center;
             flex-direction: column;
           }
-          .home-content5 {
+          .home-content05 {
             gap: var(--dl-space-space-unit);
             border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
@@ -1731,7 +1815,7 @@ iframe{height:320px !important;}
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fourunits);
           }
-          .home-content6 {
+          .home-content06 {
             gap: var(--dl-space-space-unit);
             border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
@@ -2256,9 +2340,11 @@ iframe{height:320px !important;}
           .home-text106 {
             fill: var(--dl-color-theme-neutral-light);
             color: var(--dl-color-theme-neutral-light);
+            width: 100%;
             z-index: 2;
             font-size: 2em;
             font-style: normal;
+            text-align: center;
             font-family: 'Open Sans';
             font-weight: 300;
             padding-top: var(--dl-space-space-fourunits);
@@ -2327,13 +2413,13 @@ iframe{height:320px !important;}
             justify-content: center;
             background-color: var(--dl-color-theme-neutral-light);
           }
-          .home-text110 {
+          .home-text116 {
             width: 100%;
             font-size: 3em;
             text-align: center;
             font-family: 'Karantina';
           }
-          .home-text111 {
+          .home-text117 {
             width: 100%;
             font-size: 3em;
             font-style: normal;
@@ -2341,7 +2427,7 @@ iframe{height:320px !important;}
             font-family: 'Karantina';
             font-weight: 300;
           }
-          .home-text112 {
+          .home-text118 {
             width: 100%;
             font-size: 3em;
             text-align: center;
@@ -2359,7 +2445,7 @@ iframe{height:320px !important;}
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text113 {
+          .home-text119 {
             font-size: 35px;
             font-family: 'Open Sans';
           }
@@ -2372,12 +2458,16 @@ iframe{height:320px !important;}
             background-color: var(--dl-color-gray-900);
           }
           .home-container6 {
+            direction: ltr;
             padding-top: var(--dl-space-space-fiveunits);
             padding-bottom: var(--dl-space-space-fiveunits);
             background-color: #f5f5f5;
           }
           .home-max-width1 {
             display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
           }
           .home-slider {
             width: 100%;
@@ -2386,22 +2476,76 @@ iframe{height:320px !important;}
             position: relative;
           }
           .home-slider-slide {
+            width: 100%;
+            height: 100%;
             display: flex;
             padding: var(--dl-space-space-fiveunits);
             align-items: center;
             flex-direction: column;
             justify-content: center;
           }
-          .home-content7 {
+          .home-content07 {
             gap: 32px;
             display: flex;
+            direction: rtl;
             align-items: center;
             flex-direction: column;
           }
-          .home-text116 {
+          .home-text122 {
             font-family: 'Karantina';
           }
-          .home-text117 {
+          .home-text123 {
+            font-size: 24px;
+            font-style: normal;
+            text-align: center;
+            font-family: 'Open Sans';
+            font-weight: 300;
+          }
+          .home-slider-slide1 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            padding: var(--dl-space-space-fiveunits);
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-content08 {
+            gap: 32px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            direction: rtl;
+            align-items: center;
+            flex-direction: column;
+          }
+          .home-text131 {
+            font-family: 'Karantina';
+          }
+          .home-text132 {
+            font-size: 24px;
+            font-style: normal;
+            text-align: center;
+            font-family: 'Open Sans';
+            font-weight: 300;
+          }
+          .home-slider-slide2 {
+            display: flex;
+            background-size: 100%;
+          }
+          .home-content09 {
+            gap: 32px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            direction: rtl;
+            align-items: center;
+            flex-direction: column;
+          }
+          .home-text143 {
+            font-family: 'Karantina';
+          }
+          .home-text144 {
             font-size: 24px;
             font-style: normal;
             text-align: center;
@@ -2431,7 +2575,7 @@ iframe{height:320px !important;}
             padding-bottom: var(--dl-space-space-fiveunits);
             justify-content: flex-start;
           }
-          .home-text125 {
+          .home-text152 {
             font-size: 3rem;
             text-align: center;
             font-family: 'Karantina';
@@ -2898,7 +3042,7 @@ iframe{height:320px !important;}
                 rgb(0, 0, 0) 100%
               );
             }
-            .home-text125 {
+            .home-text152 {
               margin-bottom: 0px;
             }
           }
@@ -3071,10 +3215,20 @@ iframe{height:320px !important;}
             .home-text100 {
               font-size: 2em;
             }
-            .home-text113 {
+            .home-text119 {
               font-size: 24px;
             }
-            .home-content7 {
+            .home-content07 {
+              flex: 1;
+              width: 100%;
+              max-width: 800px;
+            }
+            .home-content08 {
+              flex: 1;
+              width: 100%;
+              max-width: 800px;
+            }
+            .home-content09 {
               flex: 1;
               width: 100%;
               max-width: 800px;
@@ -3356,6 +3510,9 @@ iframe{height:320px !important;}
             .home-slider-slide {
               padding: 48px;
             }
+            .home-slider-slide1 {
+              padding: 48px;
+            }
             .home-content-container2 {
               width: 100%;
               flex-direction: column;
@@ -3482,7 +3639,7 @@ iframe{height:320px !important;}
             .home-text050 {
               font-size: 1.3em;
             }
-            .home-content4 {
+            .home-content04 {
               gap: 0;
             }
             .home-cta-btn4 {
@@ -3628,7 +3785,7 @@ iframe{height:320px !important;}
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-fiveunits);
             }
-            .home-text111 {
+            .home-text117 {
               font-size: 2.5em;
             }
             .home-cta-btn7 {
