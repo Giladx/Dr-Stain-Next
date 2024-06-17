@@ -626,10 +626,10 @@ iframe{height:320px !important;}
             <div
               data-thq="slider"
               data-loop="false"
-              data-autoplay="false"
+              data-autoplay="true"
               data-navigation="true"
-              data-pagination="false"
-              data-reverse-direction="false"
+              data-pagination="true"
+              data-reverse-direction="true"
               className="home-slider swiper"
             >
               <div data-thq="slider-wrapper" className="swiper-wrapper">
