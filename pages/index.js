@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import Script from 'dangerous-html/react'
@@ -26,13 +27,146 @@ const Home = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/7d68a6ed-ca4e-4aa9-9d31-323fe90e0694/b533e509-1b00-4dcf-842f-d0deb4b1fce1?org_if_sml=1&amp;force_format=original"
           />
         </Head>
+        <header data-thq="thq-navbar" className="home-navbar-interactive">
+          <Link href="/">
+            <a className="home-link">
+              <div className="home-logo">
+                <div className="home-image">
+                  <img
+                    alt="image"
+                    src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGJhY2slMjBwYWlufGVufDB8fHx8MTcxNzQzNjYzMnww&amp;ixlib=rb-4.0.3&amp;w=200"
+                    className="home-image01"
+                  />
+                </div>
+                <div className="home-text">
+                  <h1 className="home-text001">
+                    <span>ד&quot;ר שלדון שטיין</span>
+                    <br></br>
+                  </h1>
+                  <span className="home-text004">אורטופד מומחה לרפואת כאב</span>
+                </div>
+              </div>
+            </a>
+          </Link>
+          <div data-thq="thq-navbar-nav" className="home-desktop-menu">
+            <nav className="home-links">
+              <a href="#inspiration" className="home-link01">
+                תחומי ההתמחות
+              </a>
+              <a href="#about" className="home-link02">
+                אודות ד&quot;ר שלדון שטיין
+              </a>
+              <a href="#treatments" className="home-link03">
+                מגוון טיפולים
+              </a>
+              <a href="#deeptissue" className="home-link04">
+                טיפול רקמות עמוקות
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </a>
+              <a href="#contact" className="home-link05">
+                צרו קשר
+              </a>
+            </nav>
+            <div className="home-buttons">
+              <a href="tel:+972542233177" className="home-cta-btn button">
+                <span className="home-text005">
+                  <span>054-2233-177</span>
+                  <br className="Anchor"></br>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div data-thq="thq-burger-menu" className="home-burger-menu">
+            <svg viewBox="0 0 1024 1024" className="home-icon">
+              <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" className="home-mobile-menu">
+            <div className="home-nav">
+              <div className="home-top">
+                <Link href="/">
+                  <a className="home-link06">
+                    <div className="home-logo1">
+                      <div className="home-image02">
+                        <img
+                          alt="image"
+                          src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGJhY2slMjBwYWlufGVufDB8fHx8MTcxNzQzNjYzMnww&amp;ixlib=rb-4.0.3&amp;w=200"
+                          className="home-image03"
+                        />
+                      </div>
+                      <div className="home-text008">
+                        <h1 className="home-text009">
+                          <span>ד&quot;ר שלדון שטיין</span>
+                          <br></br>
+                        </h1>
+                        <span className="home-text012">
+                          אורטופד מומחה לרפואת כאב בהרפיה
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </Link>
+                <div data-thq="thq-close-menu" className="home-close-menu">
+                  <svg viewBox="0 0 1024 1024" className="home-icon02">
+                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                  </svg>
+                </div>
+              </div>
+              <nav className="home-links1">
+                <a href="#inspiration" className="home-link07">
+                  תחומי ההתמחות
+                </a>
+                <a href="#about" className="home-link08">
+                  אודות ד&quot;ר שלדון שטיין
+                </a>
+                <a href="#treatments" className="home-link09">
+                  מגוון טיפולים
+                </a>
+                <a href="#deeptissue" className="home-link10">
+                  טיפול רקמות עמוקות
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </a>
+                <a href="#contact" className="home-link11">
+                  צרו קשר
+                </a>
+              </nav>
+              <div className="home-buttons1">
+                <a href="tel:+972542233177" className="home-cta-btn1 button">
+                  <span className="home-text013">
+                    <span>054-2233-177</span>
+                    <br className="Anchor"></br>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div>
+              <svg viewBox="0 0 950.8571428571428 1024" className="home-icon04">
+                <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
+              </svg>
+              <svg viewBox="0 0 877.7142857142857 1024" className="home-icon06">
+                <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+              </svg>
+              <svg viewBox="0 0 602.2582857142856 1024" className="home-icon08">
+                <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
+              </svg>
+            </div>
+          </div>
+        </header>
         <div id="resources" className="home-hero">
           <img
             alt="image"
             sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
             src="/bottom-back-pain-1500w.webp"
             srcSet="/bottom-back-pain-1500w.webp 1200w, /bottom-back-pain-tablet.webp 800w, /bottom-back-pain-mobile.webp 480w"
-            className="home-image"
+            className="home-image04"
           />
           <div className="home-container1"></div>
           <div className="home-content-container">
@@ -41,7 +175,7 @@ const Home = (props) => {
                 <span>ד&quot;ר שלדון שטיין</span>
                 <br className="Section-Heading"></br>
               </h1>
-              <span className="home-text002">
+              <span className="home-text018">
                 <span>אורתופד כירורג מומחה ברפואת כאב</span>
                 <br className="Section-Text"></br>
                 <span>סובלים מכאבים?</span>
@@ -49,17 +183,17 @@ const Home = (props) => {
                 <span>זקוקים לחוות דעת משפטית?</span>
                 <br className="Section-Text"></br>
               </span>
-              <svg viewBox="0 0 1024 1024" className="home-icon">
+              <svg viewBox="0 0 1024 1024" className="home-icon10">
                 <path d="M731.429 640v-109.714c0-10.286-8-18.286-18.286-18.286h-128v-128c0-10.286-8-18.286-18.286-18.286h-109.714c-10.286 0-18.286 8-18.286 18.286v128h-128c-10.286 0-18.286 8-18.286 18.286v109.714c0 10.286 8 18.286 18.286 18.286h128v128c0 10.286 8 18.286 18.286 18.286h109.714c10.286 0 18.286-8 18.286-18.286v-128h128c10.286 0 18.286-8 18.286-18.286zM365.714 219.429h292.571v-73.143h-292.571v73.143zM146.286 219.429v731.429h-18.286c-70.286 0-128-57.714-128-128v-475.429c0-70.286 57.714-128 128-128h18.286zM822.857 219.429v731.429h-621.714v-731.429h91.429v-91.429c0-30.286 24.571-54.857 54.857-54.857h329.143c30.286 0 54.857 24.571 54.857 54.857v91.429h91.429zM1024 347.429v475.429c0 70.286-57.714 128-128 128h-18.286v-731.429h18.286c70.286 0 128 57.714 128 128z"></path>
               </svg>
-              <span className="home-text009">
+              <span className="home-text025">
                 <span>מעל-36 שנים של הצלחה וטיפול באלפי מטופלים</span>
                 <br></br>
                 <span> ראש מחלקה אורתופדית בארה&quot;ב בעבר</span>
                 <br className="Section-Text"></br>
               </span>
-              <a href="tel:+972542233177" className="home-cta-btn button">
-                <span className="home-text014">
+              <a href="tel:+972542233177" className="home-cta-btn2 button">
+                <span className="home-text030">
                   <span>054-2233-177</span>
                   <br className="Anchor"></br>
                 </span>
@@ -69,7 +203,7 @@ const Home = (props) => {
         </div>
         <div id="inspiration" className="home-features">
           <div className="home-heading-container">
-            <h2 className="home-text017">
+            <h2 className="home-text033">
               <span>תחומי ההתמחות</span>
               <br className="Section-Heading"></br>
             </h2>
@@ -77,7 +211,7 @@ const Home = (props) => {
           <div className="home-cards-container">
             <div className="home-features-card">
               <div className="home-icon-container">
-                <img alt="image" src="/hand.svg" className="home-image01" />
+                <img alt="image" src="/hand.svg" className="home-image05" />
               </div>
               <div className="home-text-container">
                 <span className="home-heading01">
@@ -92,7 +226,7 @@ const Home = (props) => {
                 className="home-features-card01"
               >
                 <div className="home-icon-container1">
-                  <img alt="image" src="/heart.svg" className="home-image02" />
+                  <img alt="image" src="/heart.svg" className="home-image06" />
                 </div>
                 <div className="home-text-container01">
                   <span className="home-heading02">
@@ -111,7 +245,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/ligtning.svg"
-                    className="home-image03"
+                    className="home-image07"
                   />
                 </div>
                 <div className="home-text-container02">
@@ -130,7 +264,7 @@ const Home = (props) => {
                   <img
                     alt="image"
                     src="/statuscope.svg"
-                    className="home-image04"
+                    className="home-image08"
                   />
                 </div>
                 <div className="home-text-container03">
@@ -144,7 +278,7 @@ const Home = (props) => {
                 className="home-features-card04"
               >
                 <div className="home-icon-container4">
-                  <img alt="image" src="/report.svg" className="home-image05" />
+                  <img alt="image" src="/report.svg" className="home-image09" />
                 </div>
                 <div className="home-text-container04">
                   <span className="home-heading05">חוות דעת לועדה רפואית</span>
@@ -157,7 +291,7 @@ const Home = (props) => {
                 className="home-features-card05"
               >
                 <div className="home-icon-container5">
-                  <img alt="image" src="/medic.svg" className="home-image06" />
+                  <img alt="image" src="/medic.svg" className="home-image10" />
                 </div>
                 <div className="home-text-container05">
                   <span className="home-heading06">חוות דעת לעורכי דין</span>
@@ -171,9 +305,9 @@ const Home = (props) => {
               <a
                 href="tel:+972542233177"
                 data-thq-animate-on-reveal="true"
-                className="home-cta-btn1 button"
+                className="home-cta-btn3 button"
               >
-                <span className="home-text024">
+                <span className="home-text040">
                   <span>054-2233-177</span>
                   <br className="Anchor"></br>
                 </span>
@@ -186,11 +320,11 @@ const Home = (props) => {
           <div className="home-max-width thq-section-max-width">
             <div className="home-section-title">
               <div className="home-content02">
-                <h2 className="home-text027 thq-heading-2">
+                <h2 className="home-text043 thq-heading-2">
                   <span>אודות ד&quot;ר שלדון שטיין</span>
                   <br></br>
                 </h2>
-                <p className="home-text030 thq-body-large">
+                <p className="home-text046 thq-body-large">
                   <span>
                     ד”ר שלדון שטיין הינו מומחה לכירורגיה אורתופדית, בעל מרפאה
                     פרטית ברמת גן.
@@ -214,7 +348,7 @@ const Home = (props) => {
                   className="home-placeholder-image thq-img-round thq-img-ratio-1-1"
                 />
                 <div className="home-content03">
-                  <span className="home-text034 thq-body-small">
+                  <span className="home-text050 thq-body-small">
                     <span>
                       התמחה בכירורגיה אורתופדית בבית החולים אלברט איינשטיין בעיר
                       ניו יורק והיה ראש מחלקת אורתופדיה בפילדלפיה, ארה&quot;ב.
@@ -251,9 +385,9 @@ const Home = (props) => {
                 <a
                   href="tel:+972542233177"
                   data-thq-animate-on-reveal="true"
-                  className="home-cta-btn2 button"
+                  className="home-cta-btn4 button"
                 >
-                  <span className="home-text045">
+                  <span className="home-text061">
                     <span>054-2233-177</span>
                     <br className="Anchor"></br>
                   </span>
@@ -265,7 +399,7 @@ const Home = (props) => {
         <div className="home-section-separator1"></div>
         <div className="home-qua">
           <animate-on-reveal duration="1500ms">
-            <span data-thq-animate-on-reveal="true" className="home-text048">
+            <span data-thq-animate-on-reveal="true" className="home-text064">
               &quot;בכל שנות עבודתי כרופא, הוכשרתי מקצועית בעשרות קורסים ולימודי
               המשך בתחום אורטופדיה , ואף כפוסק אורטופדיה בביטוח לאומי.&quot;
             </span>
@@ -274,19 +408,19 @@ const Home = (props) => {
         <div className="home-section-separator2"></div>
         <div className="home-lang">
           <div className="home-title">
-            <span className="home-text049">
+            <span className="home-text065">
               ד&quot;ר שלדון שטיין נותן שירות בשפות:
             </span>
           </div>
           <div className="home-langs">
-            <svg viewBox="0 0 877.7142857142857 1024" className="home-icon02">
+            <svg viewBox="0 0 877.7142857142857 1024" className="home-icon12">
               <path d="M373.714 616c-1.143 4-29.143-9.143-36.571-12-7.429-3.429-41.143-22.286-49.714-28s-41.143-32.571-45.143-34.286v0c-20.571 31.429-46.857 68.571-76.571 103.429-10.286 12-41.143 50.857-60 62.857-2.857 1.714-19.429 3.429-21.714 2.286 9.143-6.857 35.429-39.429 46.857-52.571 14.286-16.571 82.286-111.429 93.714-133.143 12-21.714 48-93.714 49.714-100.571-5.714-0.571-50.857 14.857-62.857 18.857-11.429 3.429-42.857 10.857-45.143 12.571-2.286 2.286-0.571 9.143-1.714 11.429s-11.429 7.429-17.714 8.571c-5.714 1.714-18.857 2.286-26.857 0-7.429-1.714-14.286-9.143-16-12 0 0-2.286-3.429-2.857-13.143 6.857-2.286 18.286-2.857 30.857-6.286s43.429-12.571 60-18.286 48.571-17.714 58.286-20c10.286-1.714 36-18.857 49.714-23.429s23.429-10.286 24-7.429 0 15.429-0.571 18.857c-0.571 2.857-28 56.571-32 65.143-2.286 4.571-18.286 34.857-44 74.857 9.143 4 28.571 12 36.571 16 9.714 4.571 77.714 33.143 81.143 34.286s9.714 27.429 8.571 32zM256.571 338.286c1.714 9.714-1.143 13.714-2.286 16-5.714 10.857-20 18.286-28.571 21.714s-22.857 6.857-34.286 6.857c-5.143-0.571-15.429-2.286-28-14.857-6.857-7.429-12-27.429-9.714-25.143s18.857 4.571 26.286 2.857 25.143-6.857 33.143-9.143c8.571-2.857 25.714-7.429 31.429-8 5.714 0 10.286 2.286 12 9.714zM655.429 412l36 129.714-79.429-24zM22.286 869.143l396.571-132.571v-589.714l-396.571 133.143v589.143zM731.429 688l58.286 17.714-103.429-375.429-57.143-17.714-123.429 306.286 58.286 17.714 25.714-62.857 120.571 37.143zM444 138.286l327.429 105.143v-217.143zM621.714 894.286l90.286 7.429-30.857 91.429-22.857-37.714c-46.286 29.714-103.429 52.571-157.714 61.714-16.571 3.429-35.429 6.857-52 6.857h-48c-60.571 0-170.857-36-218.857-70.857-3.429-2.857-4.571-5.143-4.571-9.143 0-6.286 4.571-10.857 10.286-10.857 5.143 0 32 16.571 39.429 20 51.429 25.714 123.429 49.143 181.143 49.143 71.429 0 120-9.143 185.143-37.143 18.857-8.571 35.429-19.429 53.143-29.143zM877.714 277.714v616.571c-441.714-140.571-442.286-140.571-442.286-140.571-9.143 4-418.857 142.286-424.571 142.286-4.571 0-8.571-2.857-10.286-7.429 0-0.571-0.571-1.143-0.571-1.714v-616c0.571-1.714 1.143-4.571 2.286-5.714 3.429-4 8-5.143 11.429-6.286 1.714-0.571 36.571-12 85.143-28.571v-219.429l318.857 113.143c4-1.143 359.429-124 364.571-124 6.286 0 11.429 4.571 11.429 12v238.857z"></path>
             </svg>
-            <span className="home-text050">עברית</span>
-            <span className="home-text051">אנגלית</span>
-            <span className="home-text052">רוסית</span>
-            <span className="home-text053">צרפתית</span>
-            <span className="home-text054">יידיש</span>
+            <span className="home-text066">עברית</span>
+            <span className="home-text067">אנגלית</span>
+            <span className="home-text068">רוסית</span>
+            <span className="home-text069">צרפתית</span>
+            <span className="home-text070">יידיש</span>
           </div>
           <animate-on-reveal>
             <div
@@ -299,11 +433,11 @@ const Home = (props) => {
             sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
             src="/globe-1500w.webp"
             srcSet="/globe-1500w.webp 1200w, /globe-tablet.webp 800w, /globe-mobile.webp 480w"
-            className="home-image07"
+            className="home-image11"
           />
         </div>
         <div id="contact2" className="home-get-in-touch">
-          <h2 className="home-text055">
+          <h2 className="home-text071">
             <span>צרו קשר עכשיו</span>
             <br></br>
           </h2>
@@ -323,8 +457,8 @@ iframe{height:320px !important;}
         </div>
         <div className="home-call-now">
           <div className="home-content06"></div>
-          <a href="tel:+972542233177" className="home-cta-btn3 button">
-            <span className="home-text058">
+          <a href="tel:+972542233177" className="home-cta-btn5 button">
+            <span className="home-text074">
               <span>054-2233-177</span>
               <br className="Anchor"></br>
             </span>
@@ -336,17 +470,17 @@ iframe{height:320px !important;}
             sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
             src="/paperbg-1500w.webp"
             srcSet="/paperbg-1500w.webp 1200w, /paperbg-tablet.webp 800w, /paperbg-mobile.webp 480w"
-            className="home-image08"
+            className="home-image12"
           />
           <div className="home-container4"></div>
-          <span className="home-text061">
+          <span className="home-text077">
             <span>ד”ר שטיין משתמש ברפואה ובשיטות מתקדמות,</span>
             <br></br>
             <span>
               מטפל במגוון רחב של בעיות ומחלות רפואיות עם אחוזי הצלחה גבוהים
             </span>
           </span>
-          <span className="home-text065">
+          <span className="home-text081">
             <span>לד”ר שטיין גישה חדשנית הכוללת מגוון של טיפולים</span>
             <br></br>
             <span>לריפוי סוגים שונים של כאבים הכוללים בין היתר:</span>
@@ -411,27 +545,27 @@ iframe{height:320px !important;}
               </div>
             </div>
           </div>
-          <a href="tel:+972542233177" className="home-cta-btn4 button">
-            <span className="home-text081">
+          <a href="tel:+972542233177" className="home-cta-btn6 button">
+            <span className="home-text097">
               <span>054-2233-177</span>
               <br className="Anchor"></br>
             </span>
           </a>
         </div>
         <div className="home-que">
-          <span className="home-text084">
+          <span className="home-text100">
             למעלה מ- 30 שנות הצלחה בטיפול וריפוי אלפי מטופלים, באמצעות שיטות
             ריפוי חדשניות, ברובן ללא הליך פולשני וניתוחי!
           </span>
         </div>
         <div id="deeptissue" className="home-deep-tissue">
-          <span className="home-text085">
+          <span className="home-text101">
             <span>טיפול רקמות עמוקות באוזון</span>
             <br></br>
             <span>O3 Deep Tissue Therapy</span>
             <br></br>
           </span>
-          <span className="home-text090">
+          <span className="home-text106">
             <span>הטיפול היעיל בארץ להקלת כאבים המוקרנים לרגליים מהגב</span>
             <br></br>
             <span>אחד הטיפולים היעילים בעולם לכאבים וכאבי גב</span>
@@ -464,22 +598,22 @@ iframe{height:320px !important;}
             sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
             src="/canstockphoto26619017-scaled.jpg-1500w.webp"
             srcSet="/canstockphoto26619017-scaled.jpg-1500w.webp 1200w, /canstockphoto26619017-scaled.jpg-tablet.webp 800w, /canstockphoto26619017-scaled.jpg-mobile.webp 480w"
-            className="home-image09"
+            className="home-image13"
           />
         </div>
         <div className="home-section-separator3"></div>
         <div className="home-card1">
           <div className="home-business">
-            <span className="home-text100">
+            <span className="home-text116">
               ד&quot;ר שלדון שטיין, מומחה לכירורגיה אורטופדית
             </span>
-            <span className="home-text101">
+            <span className="home-text117">
               לאחר ניסיון בטיפול באלפי אנשים בארה״ב, הביא ארצה שיטות חדשניות
               לטיפול בכאבי גב והתוצאות מרשימות!
             </span>
-            <span className="home-text102">למידע נוסף וייעוץ, חייגו</span>
-            <a href="tel:+972542233177" className="home-cta-btn5 button">
-              <span className="home-text103">
+            <span className="home-text118">למידע נוסף וייעוץ, חייגו</span>
+            <a href="tel:+972542233177" className="home-cta-btn7 button">
+              <span className="home-text119">
                 <span>054-2233-177</span>
                 <br className="Anchor"></br>
               </span>
@@ -504,8 +638,8 @@ iframe{height:320px !important;}
                   className="home-slider-slide swiper-slide"
                 >
                   <div className="home-content07">
-                    <h1 className="home-text106">לדר. שטיין שלדון,</h1>
-                    <p className="home-text107 thq-body-large">
+                    <h1 className="home-text122">לדר. שטיין שלדון,</h1>
+                    <p className="home-text123 thq-body-large">
                       <span>
                         סבלתי משך יותר מ 10 שנים מכאבי גב ותמיד האורתופדים
                         השונים שלחו אותי לפיזיותרפיה בטענה שעם הגיל (77) יש
@@ -530,8 +664,8 @@ iframe{height:320px !important;}
                   className="home-slider-slide1 swiper-slide"
                 >
                   <div className="home-content08">
-                    <h1 className="home-text115">ד&quot;ר שטיין שלום,</h1>
-                    <p className="home-text116 thq-body-large">
+                    <h1 className="home-text131">ד&quot;ר שטיין שלום,</h1>
+                    <p className="home-text132 thq-body-large">
                       <span>
                         אני רוצה להודות לך על שהעלמת לי את כאבי הגב ואת הכאבים
                         המקרינים לרגליים.
@@ -556,8 +690,8 @@ iframe{height:320px !important;}
                   className="home-slider-slide2 swiper-slide"
                 >
                   <div className="home-content09">
-                    <h1 className="home-text127">לדר. שטיין שלדון,</h1>
-                    <p className="home-text128 thq-body-large">
+                    <h1 className="home-text143">לדר. שטיין שלדון,</h1>
+                    <p className="home-text144 thq-body-large">
                       <span>
                         בגיל 45 פתאום להיות עם פריצת דיסק מלווה בכאבים כל היום
                         היה פשוט סיוט.
@@ -622,7 +756,7 @@ iframe{height:320px !important;}
         </div>
         <div className="home-section-separator5"></div>
         <div id="contact" className="home-get-in-touch1">
-          <h2 className="home-text136">
+          <h2 className="home-text152">
             <span>צרו קשר עכשיו</span>
             <br></br>
           </h2>
@@ -640,31 +774,31 @@ iframe{height:320px !important;}
             href="https://011.ninja"
             target="_blank"
             rel="noreferrer noopener"
-            className="home-link"
+            className="home-link12"
           >
             <div className="home-footer">
               <div className="home-social-links">
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="home-icon04"
+                  className="home-icon14"
                 >
                   <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 877.7142857142857 1024"
-                  className="home-icon06"
+                  className="home-icon16"
                 >
                   <path d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 877.7142857142857 1024"
-                  className="home-icon08"
+                  className="home-icon18"
                 >
                   <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
                 </svg>
               </div>
               <div className="home-copyright-container">
-                <span className="Anchor home-link1">
+                <span className="Anchor home-link13">
                   <span>
                     Copyright
                     <span
@@ -676,7 +810,7 @@ iframe{height:320px !important;}
                   <br></br>
                   <span>011.ninja 2024</span>
                 </span>
-                <svg viewBox="0 0 1024 1024" className="home-icon10">
+                <svg viewBox="0 0 1024 1024" className="home-icon20">
                   <path d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"></path>
                 </svg>
               </div>
@@ -696,6 +830,294 @@ iframe{height:320px !important;}
             flex-direction: column;
             background-color: #f5f5f5;
           }
+          .home-navbar-interactive {
+            width: 100%;
+            display: flex;
+            z-index: 999;
+            position: fixed;
+            align-items: center;
+            padding-top: 32px;
+            padding-left: 48px;
+            padding-right: 48px;
+            padding-bottom: 32px;
+            justify-content: space-between;
+            background-color: var(--dl-color-theme-neutral-light);
+          }
+          .home-link {
+            display: contents;
+          }
+          .home-logo {
+            flex: 0 0 auto;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+            text-decoration: none;
+          }
+          .home-image {
+            flex: 0 0 auto;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: flex-start;
+            margin-left: var(--dl-space-space-unit);
+            flex-direction: column;
+          }
+          .home-image01 {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin-left: 0px;
+            border-radius: var(--dl-radius-radius-round);
+          }
+          .home-text {
+            flex: 0 0 auto;
+            width: 200px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .home-text001 {
+            font-family: 'Karantina';
+            line-height: 1;
+          }
+          .home-text004 {
+            font-family: 'Bellefair';
+            line-height: 1;
+          }
+          .home-desktop-menu {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+          }
+          .home-links {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+          }
+          .home-link01 {
+            font-style: normal;
+            font-family: 'Open Sans';
+            font-weight: 600;
+            margin-right: 0px;
+            text-decoration: none;
+          }
+          .home-link02 {
+            font-style: normal;
+            font-family: 'Open Sans';
+            font-weight: 600;
+            margin-right: var(--dl-space-space-tripleunit);
+            text-decoration: none;
+          }
+          .home-link03 {
+            font-style: normal;
+            font-family: 'Open Sans';
+            font-weight: 600;
+            margin-right: var(--dl-space-space-tripleunit);
+            text-decoration: none;
+          }
+          .home-link04 {
+            font-style: normal;
+            font-family: 'Open Sans';
+            font-weight: 600;
+            margin-right: var(--dl-space-space-tripleunit);
+            text-decoration: none;
+          }
+          .home-link05 {
+            font-style: normal;
+            font-family: 'Open Sans';
+            font-weight: 600;
+            margin-right: var(--dl-space-space-tripleunit);
+            text-decoration: none;
+          }
+          .home-buttons {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .home-cta-btn {
+            color: var(--dl-color-gray-white);
+            cursor: pointer;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-fiveunits);
+            border-radius: var(--dl-radius-radius-radius24);
+            padding-right: var(--dl-space-space-fiveunits);
+            padding-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+            background-color: var(--dl-color-gray-black);
+          }
+          .home-text005 {
+            font-family: 'Open Sans';
+          }
+          .home-burger-menu {
+            display: none;
+          }
+          .home-icon {
+            width: 16px;
+            height: 16px;
+          }
+          .home-mobile-menu {
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            padding: 32px;
+            z-index: 100;
+            position: absolute;
+            transform: translateX(-100%);
+            transition: 0.5s;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #fff;
+          }
+          .home-nav {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .home-top {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 48px;
+            justify-content: space-between;
+          }
+          .home-link06 {
+            display: contents;
+          }
+          .home-logo1 {
+            flex: 0 0 auto;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+            text-decoration: none;
+          }
+          .home-image02 {
+            flex: 0 0 auto;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: flex-start;
+            margin-left: var(--dl-space-space-doubleunit);
+            flex-direction: column;
+          }
+          .home-image03 {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin-left: 0px;
+            border-radius: var(--dl-radius-radius-round);
+          }
+          .home-text008 {
+            flex: 0 0 auto;
+            width: 200px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .home-text009 {
+            font-family: 'Karantina';
+            line-height: 1;
+          }
+          .home-text012 {
+            font-size: 16px;
+            font-family: 'Bellefair';
+            line-height: 1;
+            letter-spacing: 0.2px;
+          }
+          .home-close-menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .home-icon02 {
+            width: 32px;
+            height: 32px;
+          }
+          .home-links1 {
+            flex: 0 0 auto;
+            display: flex;
+            align-self: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .home-link07 {
+            font-style: normal;
+            font-family: 'Open Sans';
+            font-weight: 600;
+            margin-bottom: var(--dl-space-space-doubleunit);
+            text-decoration: none;
+          }
+          .home-link08 {
+            font-style: normal;
+            font-family: 'Open Sans';
+            font-weight: 600;
+            margin-bottom: var(--dl-space-space-doubleunit);
+            text-decoration: none;
+          }
+          .home-link09 {
+            font-style: normal;
+            font-family: 'Open Sans';
+            font-weight: 600;
+            margin-bottom: var(--dl-space-space-doubleunit);
+            text-decoration: none;
+          }
+          .home-link10 {
+            font-style: normal;
+            font-family: 'Open Sans';
+            font-weight: 600;
+            margin-bottom: var(--dl-space-space-doubleunit);
+            text-decoration: none;
+          }
+          .home-link11 {
+            font-style: normal;
+            font-family: 'Open Sans';
+            font-weight: 600;
+            margin-bottom: var(--dl-space-space-fourunits);
+            text-decoration: none;
+          }
+          .home-buttons1 {
+            display: flex;
+            margin-top: var(--dl-space-space-unit);
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .home-cta-btn1 {
+            color: var(--dl-color-gray-white);
+            cursor: pointer;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-fiveunits);
+            border-radius: var(--dl-radius-radius-radius24);
+            padding-right: var(--dl-space-space-fiveunits);
+            padding-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+            background-color: var(--dl-color-gray-black);
+          }
+          .home-text013 {
+            font-family: 'Open Sans';
+          }
+          .home-icon04 {
+            width: 32px;
+            height: 32px;
+          }
+          .home-icon06 {
+            width: 32px;
+            height: 32px;
+            margin-right: 32px;
+          }
+          .home-icon08 {
+            width: 32px;
+            height: 32px;
+            margin-right: 32px;
+          }
           .home-hero {
             width: 100%;
             display: flex;
@@ -707,7 +1129,7 @@ iframe{height:320px !important;}
             padding-bottom: var(--dl-space-space-tenunits);
             justify-content: center;
           }
-          .home-image {
+          .home-image04 {
             top: 0px;
             left: 0px;
             width: 100%;
@@ -762,7 +1184,7 @@ iframe{height:320px !important;}
             margin-bottom: var(--dl-space-space-doubleunit);
             -webkit-text-stroke: 2px #000;
           }
-          .home-text002 {
+          .home-text018 {
             fill: var(--dl-color-theme-neutral-light);
             color: var(--dl-color-theme-neutral-light);
             font-size: 2em;
@@ -772,12 +1194,12 @@ iframe{height:320px !important;}
             font-weight: 700;
             -webkit-text-stroke: 2px #777;
           }
-          .home-icon {
+          .home-icon10 {
             fill: rgba(217, 217, 217, 0);
             width: 40px;
             height: auto;
           }
-          .home-text009 {
+          .home-text025 {
             fill: var(--dl-color-theme-neutral-light);
             color: var(--dl-color-theme-neutral-light);
             font-size: 2em;
@@ -788,7 +1210,7 @@ iframe{height:320px !important;}
             margin-bottom: var(--dl-space-space-fiveunits);
             -webkit-text-stroke: 2px #777;
           }
-          .home-cta-btn {
+          .home-cta-btn2 {
             color: var(--dl-color-gray-white);
             cursor: pointer;
             padding-top: var(--dl-space-space-unit);
@@ -799,7 +1221,7 @@ iframe{height:320px !important;}
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text014 {
+          .home-text030 {
             font-size: 35px;
             font-family: 'Open Sans';
           }
@@ -822,7 +1244,7 @@ iframe{height:320px !important;}
             margin-bottom: var(--dl-space-space-fiveunits);
             flex-direction: column;
           }
-          .home-text017 {
+          .home-text033 {
             font-size: 4rem;
             font-style: normal;
             text-align: center;
@@ -862,7 +1284,7 @@ iframe{height:320px !important;}
             flex-direction: column;
             justify-content: center;
           }
-          .home-image01 {
+          .home-image05 {
             width: 80px;
             object-fit: cover;
           }
@@ -900,7 +1322,7 @@ iframe{height:320px !important;}
             flex-direction: column;
             justify-content: center;
           }
-          .home-image02 {
+          .home-image06 {
             width: 80px;
             object-fit: cover;
           }
@@ -939,7 +1361,7 @@ iframe{height:320px !important;}
             flex-direction: column;
             justify-content: center;
           }
-          .home-image03 {
+          .home-image07 {
             width: 40px;
             object-fit: cover;
           }
@@ -973,7 +1395,7 @@ iframe{height:320px !important;}
             flex-direction: column;
             justify-content: center;
           }
-          .home-image04 {
+          .home-image08 {
             width: 80px;
             object-fit: cover;
           }
@@ -1010,7 +1432,7 @@ iframe{height:320px !important;}
             flex-direction: column;
             justify-content: center;
           }
-          .home-image05 {
+          .home-image09 {
             width: 80px;
             object-fit: cover;
           }
@@ -1047,7 +1469,7 @@ iframe{height:320px !important;}
             flex-direction: column;
             justify-content: center;
           }
-          .home-image06 {
+          .home-image10 {
             width: 60px;
             object-fit: cover;
           }
@@ -1077,7 +1499,7 @@ iframe{height:320px !important;}
             flex-shrink: 0;
             flex-direction: column;
           }
-          .home-cta-btn1 {
+          .home-cta-btn3 {
             color: var(--dl-color-gray-white);
             cursor: pointer;
             padding-top: var(--dl-space-space-unit);
@@ -1088,7 +1510,7 @@ iframe{height:320px !important;}
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text024 {
+          .home-text040 {
             font-size: 35px;
             font-family: 'Open Sans';
           }
@@ -1127,13 +1549,13 @@ iframe{height:320px !important;}
             align-items: center;
             flex-direction: column;
           }
-          .home-text027 {
+          .home-text043 {
             font-size: 4em;
             font-style: normal;
             font-family: 'Karantina';
             font-weight: 700;
           }
-          .home-text030 {
+          .home-text046 {
             font-size: 2em;
             font-style: normal;
             font-family: 'Open Sans';
@@ -1160,7 +1582,7 @@ iframe{height:320px !important;}
             align-items: center;
             flex-direction: column;
           }
-          .home-text034 {
+          .home-text050 {
             overflow: auto;
             font-size: 30px;
             font-style: normal;
@@ -1189,7 +1611,7 @@ iframe{height:320px !important;}
             flex-shrink: 0;
             flex-direction: column;
           }
-          .home-cta-btn2 {
+          .home-cta-btn4 {
             color: var(--dl-color-gray-white);
             cursor: pointer;
             padding-top: var(--dl-space-space-unit);
@@ -1200,7 +1622,7 @@ iframe{height:320px !important;}
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text045 {
+          .home-text061 {
             font-size: 35px;
             font-family: 'Open Sans';
           }
@@ -1226,7 +1648,7 @@ iframe{height:320px !important;}
             padding-bottom: var(--dl-space-space-tenunits);
             justify-content: center;
           }
-          .home-text048 {
+          .home-text064 {
             width: 100%;
             font-size: 3.7em;
             align-self: center;
@@ -1266,7 +1688,7 @@ iframe{height:320px !important;}
             padding-right: var(--dl-space-space-fourunits);
             flex-direction: column;
           }
-          .home-text049 {
+          .home-text065 {
             font-size: 4em;
             font-style: normal;
             font-family: 'Karantina';
@@ -1283,13 +1705,13 @@ iframe{height:320px !important;}
             align-items: center;
             flex-direction: row;
           }
-          .home-icon02 {
+          .home-icon12 {
             fill: var(--dl-color-theme-neutral-light);
             width: 4em;
             height: 4em;
             margin-left: var(--dl-space-space-tenunits);
           }
-          .home-text050 {
+          .home-text066 {
             fill: var(--dl-color-theme-secondary1);
             color: var(--dl-color-theme-secondary1);
             width: auto;
@@ -1297,28 +1719,28 @@ iframe{height:320px !important;}
             font-family: 'Karantina';
             margin-left: var(--dl-space-space-tenunits);
           }
-          .home-text051 {
+          .home-text067 {
             fill: var(--dl-color-theme-secondary1);
             color: var(--dl-color-theme-secondary1);
             font-size: 5em;
             font-family: 'Karantina';
             margin-left: var(--dl-space-space-tenunits);
           }
-          .home-text052 {
+          .home-text068 {
             fill: var(--dl-color-theme-secondary1);
             color: var(--dl-color-theme-secondary1);
             font-size: 5em;
             font-family: 'Karantina';
             margin-left: var(--dl-space-space-tenunits);
           }
-          .home-text053 {
+          .home-text069 {
             fill: var(--dl-color-theme-secondary1);
             color: var(--dl-color-theme-secondary1);
             font-size: 5em;
             font-family: 'Karantina';
             margin-left: var(--dl-space-space-tenunits);
           }
-          .home-text054 {
+          .home-text070 {
             fill: var(--dl-color-theme-secondary1);
             color: var(--dl-color-theme-secondary1);
             font-size: 5em;
@@ -1342,7 +1764,7 @@ iframe{height:320px !important;}
               rgba(245, 245, 245, 0.8) 86%
             );
           }
-          .home-image07 {
+          .home-image11 {
             top: 0px;
             left: 0px;
             width: 100%;
@@ -1363,7 +1785,7 @@ iframe{height:320px !important;}
             padding-bottom: var(--dl-space-space-fiveunits);
             justify-content: flex-start;
           }
-          .home-text055 {
+          .home-text071 {
             font-size: 3rem;
             text-align: center;
             font-family: 'Karantina';
@@ -1402,7 +1824,7 @@ iframe{height:320px !important;}
             flex-shrink: 0;
             flex-direction: column;
           }
-          .home-cta-btn3 {
+          .home-cta-btn5 {
             color: var(--dl-color-gray-white);
             cursor: pointer;
             padding-top: var(--dl-space-space-unit);
@@ -1413,7 +1835,7 @@ iframe{height:320px !important;}
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text058 {
+          .home-text074 {
             font-size: 35px;
             font-family: 'Open Sans';
           }
@@ -1433,7 +1855,7 @@ iframe{height:320px !important;}
             padding-bottom: var(--dl-space-space-fiveunits);
             justify-content: center;
           }
-          .home-image08 {
+          .home-image12 {
             top: 0px;
             right: 0px;
             width: 100%;
@@ -1460,7 +1882,7 @@ iframe{height:320px !important;}
               rgb(245, 245, 245) 51%
             );
           }
-          .home-text061 {
+          .home-text077 {
             width: 100%;
             z-index: 20;
             font-size: 3em;
@@ -1471,7 +1893,7 @@ iframe{height:320px !important;}
             font-weight: 300;
             line-height: 1;
           }
-          .home-text065 {
+          .home-text081 {
             width: 100%;
             z-index: 20;
             font-size: 3.5em;
@@ -1858,7 +2280,7 @@ iframe{height:320px !important;}
             font-family: 'Open Sans';
             font-weight: 800;
           }
-          .home-cta-btn4 {
+          .home-cta-btn6 {
             color: var(--dl-color-gray-white);
             cursor: pointer;
             z-index: 20;
@@ -1871,7 +2293,7 @@ iframe{height:320px !important;}
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text081 {
+          .home-text097 {
             font-size: 35px;
             font-family: 'Open Sans';
           }
@@ -1887,7 +2309,7 @@ iframe{height:320px !important;}
             padding-bottom: var(--dl-space-space-tenunits);
             justify-content: center;
           }
-          .home-text084 {
+          .home-text100 {
             width: 100%;
             font-size: 3em;
             text-align: center;
@@ -1901,7 +2323,7 @@ iframe{height:320px !important;}
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-text085 {
+          .home-text101 {
             fill: var(--dl-color-theme-neutral-light);
             color: var(--dl-color-theme-neutral-light);
             width: 100%;
@@ -1916,7 +2338,7 @@ iframe{height:320px !important;}
             padding-left: var(--dl-space-space-doubleunit);
             padding-right: var(--dl-space-space-doubleunit);
           }
-          .home-text090 {
+          .home-text106 {
             fill: var(--dl-color-theme-neutral-light);
             color: var(--dl-color-theme-neutral-light);
             width: 100%;
@@ -1948,7 +2370,7 @@ iframe{height:320px !important;}
               rgba(0, 0, 0, 0.83) 82%
             );
           }
-          .home-image09 {
+          .home-image13 {
             right: 0px;
             width: 100%;
             bottom: 0px;
@@ -1992,13 +2414,13 @@ iframe{height:320px !important;}
             justify-content: center;
             background-color: var(--dl-color-theme-neutral-light);
           }
-          .home-text100 {
+          .home-text116 {
             width: 100%;
             font-size: 3em;
             text-align: center;
             font-family: 'Karantina';
           }
-          .home-text101 {
+          .home-text117 {
             width: 100%;
             font-size: 3em;
             font-style: normal;
@@ -2006,13 +2428,13 @@ iframe{height:320px !important;}
             font-family: 'Karantina';
             font-weight: 300;
           }
-          .home-text102 {
+          .home-text118 {
             width: 100%;
             font-size: 3em;
             text-align: center;
             font-family: 'Karantina';
           }
-          .home-cta-btn5 {
+          .home-cta-btn7 {
             color: var(--dl-color-gray-white);
             cursor: pointer;
             margin-top: var(--dl-space-space-fourunits);
@@ -2024,7 +2446,7 @@ iframe{height:320px !important;}
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
           }
-          .home-text103 {
+          .home-text119 {
             font-size: 35px;
             font-family: 'Open Sans';
           }
@@ -2070,10 +2492,10 @@ iframe{height:320px !important;}
             align-items: center;
             flex-direction: column;
           }
-          .home-text106 {
+          .home-text122 {
             font-family: 'Karantina';
           }
-          .home-text107 {
+          .home-text123 {
             font-size: 24px;
             font-style: normal;
             text-align: center;
@@ -2098,10 +2520,10 @@ iframe{height:320px !important;}
             align-items: center;
             flex-direction: column;
           }
-          .home-text115 {
+          .home-text131 {
             font-family: 'Karantina';
           }
-          .home-text116 {
+          .home-text132 {
             font-size: 24px;
             font-style: normal;
             text-align: center;
@@ -2121,10 +2543,10 @@ iframe{height:320px !important;}
             align-items: center;
             flex-direction: column;
           }
-          .home-text127 {
+          .home-text143 {
             font-family: 'Karantina';
           }
-          .home-text128 {
+          .home-text144 {
             font-size: 24px;
             font-style: normal;
             text-align: center;
@@ -2154,7 +2576,7 @@ iframe{height:320px !important;}
             padding-bottom: var(--dl-space-space-fiveunits);
             justify-content: flex-start;
           }
-          .home-text136 {
+          .home-text152 {
             font-size: 3rem;
             text-align: center;
             font-family: 'Karantina';
@@ -2184,7 +2606,7 @@ iframe{height:320px !important;}
             justify-content: center;
             background-color: var(--dl-color-theme-neutral-light);
           }
-          .home-link {
+          .home-link12 {
             display: contents;
           }
           .home-footer {
@@ -2205,16 +2627,16 @@ iframe{height:320px !important;}
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-icon04 {
+          .home-icon14 {
             width: 24px;
             height: 24px;
           }
-          .home-icon06 {
+          .home-icon16 {
             width: 24px;
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
           }
-          .home-icon08 {
+          .home-icon18 {
             width: 24px;
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
@@ -2227,12 +2649,18 @@ iframe{height:320px !important;}
             align-items: center;
             flex-direction: row;
           }
-          .home-icon10 {
+          .home-icon20 {
             width: 24px;
             height: 24px;
             margin-right: var(--dl-space-space-doubleunit);
           }
           @media (max-width: 1600px) {
+            .home-link01 {
+              margin-right: 0px;
+            }
+            .home-link07 {
+              margin-right: 0px;
+            }
             .home-hero {
               margin-top: 115px;
               margin-bottom: 0px;
@@ -2242,28 +2670,28 @@ iframe{height:320px !important;}
               margin-left: var(--dl-space-space-fourunits);
               padding-right: var(--dl-space-space-fourunits);
             }
-            .home-text049 {
+            .home-text065 {
               font-size: 4em;
               line-height: 1.2;
             }
-            .home-icon02 {
+            .home-icon12 {
               width: 4em;
               margin-left: var(--dl-space-space-fiveunits);
             }
-            .home-text050 {
+            .home-text066 {
               font-size: 4.3em;
             }
-            .home-text051 {
+            .home-text067 {
               font-size: 4.3em;
             }
-            .home-text052 {
+            .home-text068 {
               font-size: 4.3em;
               margin-left: var(--dl-space-space-fiveunits);
             }
-            .home-text053 {
+            .home-text069 {
               font-size: 4.3em;
             }
-            .home-text054 {
+            .home-text070 {
               font-size: 4.3em;
             }
             .home-get-in-touch {
@@ -2334,6 +2762,87 @@ iframe{height:320px !important;}
             }
           }
           @media (max-width: 1200px) {
+            .home-navbar-interactive {
+              z-index: 100;
+              background-color: var(--dl-color-gray-white);
+            }
+            .home-text {
+              width: auto;
+            }
+            .home-text001 {
+              font-size: 2em;
+            }
+            .home-text004 {
+              font-size: 16px;
+            }
+            .home-link01 {
+              margin-right: 0px;
+            }
+            .home-link02 {
+              margin-right: var(--dl-space-space-doubleunit);
+            }
+            .home-link03 {
+              margin-right: var(--dl-space-space-doubleunit);
+            }
+            .home-link04 {
+              margin-right: var(--dl-space-space-doubleunit);
+            }
+            .home-link05 {
+              margin-right: var(--dl-space-space-doubleunit);
+            }
+            .home-cta-btn {
+              padding-left: var(--dl-space-space-doubleunit);
+              padding-right: var(--dl-space-space-doubleunit);
+            }
+            .home-text005 {
+              width: auto;
+            }
+            .home-text008 {
+              width: auto;
+            }
+            .home-text009 {
+              font-size: 1.5em;
+            }
+            .home-text012 {
+              font-size: 14px;
+            }
+            .home-link07 {
+              margin-right: 0px;
+            }
+            .home-link08 {
+              margin-right: var(--dl-space-space-doubleunit);
+            }
+            .home-link09 {
+              margin-right: var(--dl-space-space-doubleunit);
+            }
+            .home-link10 {
+              margin-right: var(--dl-space-space-doubleunit);
+            }
+            .home-link11 {
+              margin-right: var(--dl-space-space-doubleunit);
+            }
+            .home-cta-btn1 {
+              padding-left: var(--dl-space-space-doubleunit);
+              padding-right: var(--dl-space-space-doubleunit);
+            }
+            .home-text013 {
+              width: auto;
+            }
+            .home-icon04 {
+              width: 32px;
+              height: 32px;
+              margin-right: 0px;
+            }
+            .home-icon06 {
+              width: 32px;
+              height: 32px;
+              margin-right: 16px;
+            }
+            .home-icon08 {
+              width: 32px;
+              height: 32px;
+              margin-right: 16px;
+            }
             .home-hero {
               margin-top: 115px;
               margin-bottom: 0px;
@@ -2373,7 +2882,7 @@ iframe{height:320px !important;}
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-fourunits);
             }
-            .home-text048 {
+            .home-text064 {
               font-size: 3em;
               align-self: center;
               font-family: Bellefair;
@@ -2384,7 +2893,7 @@ iframe{height:320px !important;}
             .home-title {
               width: 100%;
             }
-            .home-text049 {
+            .home-text065 {
               fill: var(--dl-color-theme-neutral-light);
               color: var(--dl-color-theme-neutral-light);
               width: 100%;
@@ -2405,7 +2914,7 @@ iframe{height:320px !important;}
                 rgba(255, 255, 255, 0.8) 100%
               );
             }
-            .home-text055 {
+            .home-text071 {
               margin-bottom: 0px;
             }
             .home-call-now {
@@ -2417,10 +2926,10 @@ iframe{height:320px !important;}
               align-items: center;
               justify-content: center;
             }
-            .home-text061 {
+            .home-text077 {
               font-size: 2em;
             }
-            .home-text065 {
+            .home-text081 {
               font-size: 3em;
               margin-bottom: var(--dl-space-space-tenunits);
             }
@@ -2505,14 +3014,14 @@ iframe{height:320px !important;}
               font-family: Open Sans;
               font-weight: 700;
             }
-            .home-text085 {
+            .home-text101 {
               fill: var(--dl-color-theme-neutral-light);
               color: var(--dl-color-theme-neutral-light);
               width: 100%;
               margin-top: var(--dl-space-space-doubleunit);
               margin-bottom: var(--dl-space-space-doubleunit);
             }
-            .home-text090 {
+            .home-text106 {
               fill: var(--dl-color-theme-neutral-light);
               color: var(--dl-color-theme-neutral-light);
               padding: var(--dl-space-space-fourunits);
@@ -2534,11 +3043,80 @@ iframe{height:320px !important;}
                 rgb(0, 0, 0) 100%
               );
             }
-            .home-text136 {
+            .home-text152 {
               margin-bottom: 0px;
             }
           }
           @media (max-width: 991px) {
+            .home-logo {
+              align-items: center;
+            }
+            .home-text {
+              width: auto;
+            }
+            .home-text001 {
+              font-size: 2em;
+            }
+            .home-text004 {
+              font-size: 16px;
+            }
+            .home-desktop-menu {
+              display: none;
+            }
+            .home-link01 {
+              margin-right: var(--dl-space-space-unit);
+            }
+            .home-link02 {
+              margin-right: var(--dl-space-space-unit);
+            }
+            .home-link03 {
+              margin-right: var(--dl-space-space-unit);
+            }
+            .home-link04 {
+              margin-right: var(--dl-space-space-unit);
+            }
+            .home-link05 {
+              margin-right: var(--dl-space-space-unit);
+            }
+            .home-burger-menu {
+              display: flex;
+            }
+            .home-icon {
+              width: 32px;
+              height: 32px;
+            }
+            .home-logo1 {
+              align-items: center;
+            }
+            .home-text008 {
+              width: auto;
+            }
+            .home-text009 {
+              font-size: 2em;
+            }
+            .home-text012 {
+              font-size: 16px;
+            }
+            .home-link07 {
+              margin-right: 0px;
+              margin-bottom: var(--dl-space-space-doubleunit);
+            }
+            .home-link08 {
+              margin-right: 0px;
+              margin-bottom: var(--dl-space-space-doubleunit);
+            }
+            .home-link09 {
+              margin-right: 0px;
+              margin-bottom: var(--dl-space-space-doubleunit);
+            }
+            .home-link10 {
+              margin-right: 0px;
+              margin-bottom: var(--dl-space-space-doubleunit);
+            }
+            .home-link11 {
+              margin-right: 0px;
+              margin-bottom: var(--dl-space-space-doubleunit);
+            }
             .home-hero {
               margin-top: 115px;
               margin-bottom: 0px;
@@ -2569,10 +3147,10 @@ iframe{height:320px !important;}
             .home-heading06 {
               font-size: 20px;
             }
-            .home-text024 {
+            .home-text040 {
               font-size: 24px;
             }
-            .home-text045 {
+            .home-text061 {
               font-size: 24px;
             }
             .home-get-in-touch {
@@ -2581,7 +3159,7 @@ iframe{height:320px !important;}
             .home-container2 {
               height: 280px;
             }
-            .home-text058 {
+            .home-text074 {
               font-size: 24px;
             }
             .home-features-card06 {
@@ -2632,13 +3210,13 @@ iframe{height:320px !important;}
             .home-heading14 {
               font-size: 20px;
             }
-            .home-text081 {
+            .home-text097 {
               font-size: 24px;
             }
-            .home-text084 {
+            .home-text100 {
               font-size: 2em;
             }
-            .home-text103 {
+            .home-text119 {
               font-size: 24px;
             }
             .home-content07 {
@@ -2667,14 +3245,28 @@ iframe{height:320px !important;}
             }
           }
           @media (max-width: 767px) {
+            .home-navbar-interactive {
+              padding-left: 32px;
+              padding-right: 32px;
+            }
+            .home-text001 {
+              font-size: 2em;
+            }
+            .home-text004 {
+              font-size: 16px;
+            }
+            .home-burger-menu {
+              align-items: center;
+              justify-content: center;
+            }
             .home-hero {
               margin-top: 115px;
               margin-bottom: 0px;
             }
-            .home-text002 {
+            .home-text018 {
               font-size: 2.5em;
             }
-            .home-text009 {
+            .home-text025 {
               font-size: 2.5em;
             }
             .home-heading-container {
@@ -2789,10 +3381,10 @@ iframe{height:320px !important;}
             .home-card {
               width: 100%;
             }
-            .home-text034 {
+            .home-text050 {
               font-size: 25px;
             }
-            .home-text049 {
+            .home-text065 {
               margin-left: var(--dl-space-space-halfunit);
             }
             .home-langs {
@@ -2800,27 +3392,27 @@ iframe{height:320px !important;}
               flex-direction: row;
               grid-template-columns: repeat(2, 1fr);
             }
-            .home-icon02 {
+            .home-icon12 {
               display: none;
               margin-left: 0px;
             }
-            .home-text050 {
+            .home-text066 {
               margin: 0px;
               text-align: center;
             }
-            .home-text051 {
+            .home-text067 {
               margin: 0px;
               text-align: center;
             }
-            .home-text052 {
+            .home-text068 {
               margin: 0px;
               text-align: center;
             }
-            .home-text053 {
+            .home-text069 {
               margin: 0px;
               text-align: center;
             }
-            .home-text054 {
+            .home-text070 {
               margin: 0px;
               text-align: center;
             }
@@ -2909,10 +3501,10 @@ iframe{height:320px !important;}
               font-style: normal;
               font-weight: 800;
             }
-            .home-text084 {
+            .home-text100 {
               font-size: 2.5em;
             }
-            .home-text090 {
+            .home-text106 {
               padding: var(--dl-space-space-fourunits);
               text-align: center;
             }
@@ -2928,6 +3520,22 @@ iframe{height:320px !important;}
             }
           }
           @media (max-width: 479px) {
+            .home-navbar-interactive {
+              padding: var(--dl-space-space-unit);
+            }
+            .home-cta-btn {
+              font-size: 16px;
+              padding-left: var(--dl-space-space-doubleunit);
+              padding-right: var(--dl-space-space-doubleunit);
+            }
+            .home-mobile-menu {
+              padding: 16px;
+            }
+            .home-cta-btn1 {
+              font-size: 16px;
+              padding-left: var(--dl-space-space-doubleunit);
+              padding-right: var(--dl-space-space-doubleunit);
+            }
             .home-hero {
               margin-top: var(--dl-space-space-tenunits);
               padding-top: var(--dl-space-space-fourunits);
@@ -2946,16 +3554,16 @@ iframe{height:320px !important;}
               font-size: 4em;
               margin-bottom: 0px;
             }
-            .home-text002 {
+            .home-text018 {
               font-size: 1.5em;
             }
-            .home-icon {
+            .home-icon10 {
               fill: rgba(217, 217, 217, 0);
             }
-            .home-text009 {
+            .home-text025 {
               font-size: 1.5em;
             }
-            .home-cta-btn {
+            .home-cta-btn2 {
               font-size: 16px;
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
@@ -3004,12 +3612,12 @@ iframe{height:320px !important;}
             .home-content {
               gap: 0;
             }
-            .home-cta-btn1 {
+            .home-cta-btn3 {
               font-size: 16px;
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .home-text024 {
+            .home-text040 {
               font-size: 34px;
             }
             .home-team8 {
@@ -3021,32 +3629,32 @@ iframe{height:320px !important;}
             .home-max-width {
               padding: 0px;
             }
-            .home-text027 {
+            .home-text043 {
               text-align: center;
             }
-            .home-text030 {
+            .home-text046 {
               font-size: 1.8em;
               text-align: center;
               margin-bottom: var(--dl-space-space-doubleunit);
             }
-            .home-text034 {
+            .home-text050 {
               font-size: 1.3em;
             }
             .home-content04 {
               gap: 0;
             }
-            .home-cta-btn2 {
+            .home-cta-btn4 {
               font-size: 16px;
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .home-text045 {
+            .home-text061 {
               font-size: 34px;
             }
-            .home-text048 {
+            .home-text064 {
               font-size: 2em;
             }
-            .home-text049 {
+            .home-text065 {
               font-size: 3em;
               margin-left: 0px;
             }
@@ -3069,12 +3677,12 @@ iframe{height:320px !important;}
               margin-bottom: 0px;
               padding-bottom: var(--dl-space-space-doubleunit);
             }
-            .home-cta-btn3 {
+            .home-cta-btn5 {
               font-size: 16px;
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .home-text058 {
+            .home-text074 {
               font-size: 34px;
             }
             .home-container5 {
@@ -3161,15 +3769,15 @@ iframe{height:320px !important;}
               font-family: Open Sans;
               font-weight: 800;
             }
-            .home-cta-btn4 {
+            .home-cta-btn6 {
               font-size: 16px;
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .home-text084 {
+            .home-text100 {
               font-size: 2em;
             }
-            .home-text090 {
+            .home-text106 {
               font-size: 1.3em;
             }
             .home-card1 {
@@ -3178,10 +3786,10 @@ iframe{height:320px !important;}
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-fiveunits);
             }
-            .home-text101 {
+            .home-text117 {
               font-size: 2.5em;
             }
-            .home-cta-btn5 {
+            .home-cta-btn7 {
               font-size: 16px;
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
@@ -3203,10 +3811,10 @@ iframe{height:320px !important;}
             .home-container7 {
               height: 700px;
             }
-            .home-link1 {
+            .home-link13 {
               width: auto;
             }
-            .home-icon10 {
+            .home-icon20 {
               margin-left: var(--dl-space-space-doubleunit);
               margin-right: 0px;
             }
