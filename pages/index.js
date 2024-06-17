@@ -27,6 +27,16 @@ const Home = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/7d68a6ed-ca4e-4aa9-9d31-323fe90e0694/b533e509-1b00-4dcf-842f-d0deb4b1fce1?org_if_sml=1&amp;force_format=original"
           />
         </Head>
+        <div>
+          <div className="home-container02">
+            <Script
+              html={`<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLNTMT38"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->`}
+            ></Script>
+          </div>
+        </div>
         <header data-thq="thq-navbar" className="home-navbar-interactive">
           <Link href="/">
             <a className="home-link">
@@ -168,7 +178,7 @@ const Home = (props) => {
             srcSet="/bottom-back-pain-1500w.webp 1200w, /bottom-back-pain-tablet.webp 800w, /bottom-back-pain-mobile.webp 480w"
             className="home-image04"
           />
-          <div className="home-container1"></div>
+          <div className="home-container03"></div>
           <div className="home-content-container">
             <div className="home-hero-text">
               <h1 className="home-heading">
@@ -442,8 +452,8 @@ const Home = (props) => {
             <br></br>
           </h2>
           <div className="home-content-container1"></div>
-          <div className="home-container2">
-            <div className="home-container3">
+          <div className="home-container04">
+            <div className="home-container05">
               <Script
                 html={`<style>
 iframe{height:320px !important;}
@@ -472,7 +482,7 @@ iframe{height:320px !important;}
             srcSet="/paperbg-1500w.webp 1200w, /paperbg-tablet.webp 800w, /paperbg-mobile.webp 480w"
             className="home-image12"
           />
-          <div className="home-container4"></div>
+          <div className="home-container06"></div>
           <span className="home-text077">
             <span>ד”ר שטיין משתמש ברפואה ובשיטות מתקדמות,</span>
             <br></br>
@@ -485,7 +495,7 @@ iframe{height:320px !important;}
             <br></br>
             <span>לריפוי סוגים שונים של כאבים הכוללים בין היתר:</span>
           </span>
-          <div className="home-container5">
+          <div className="home-container07">
             <div className="home-features-card06">
               <div className="home-text-container06">
                 <span className="home-heading07">
@@ -621,7 +631,7 @@ iframe{height:320px !important;}
           </div>
         </div>
         <div className="home-section-separator4"></div>
-        <div className="home-container6 thq-section-padding">
+        <div className="home-container08 thq-section-padding">
           <div className="home-max-width1 thq-section-max-width">
             <div
               data-thq="slider"
@@ -761,8 +771,8 @@ iframe{height:320px !important;}
             <br></br>
           </h2>
           <div className="home-content-container2"></div>
-          <div className="home-container7">
-            <div className="home-container8">
+          <div className="home-container09">
+            <div className="home-container10">
               <Script
                 html={`<script type="text/javascript" src="https://form.jotform.com/jsform/241543269234456"></script>`}
               ></Script>
@@ -829,6 +839,9 @@ iframe{height:320px !important;}
             align-items: center;
             flex-direction: column;
             background-color: #f5f5f5;
+          }
+          .home-container02 {
+            display: contents;
           }
           .home-navbar-interactive {
             width: 100%;
@@ -1137,7 +1150,7 @@ iframe{height:320px !important;}
             position: absolute;
             object-fit: cover;
           }
-          .home-container1 {
+          .home-container03 {
             top: 0px;
             flex: 0 0 auto;
             left: 0px;
@@ -1800,11 +1813,11 @@ iframe{height:320px !important;}
             flex-direction: row;
             justify-content: center;
           }
-          .home-container2 {
+          .home-container04 {
             width: 100%;
             height: 320px;
           }
-          .home-container3 {
+          .home-container05 {
             display: contents;
           }
           .home-call-now {
@@ -1863,7 +1876,7 @@ iframe{height:320px !important;}
             position: absolute;
             object-fit: cover;
           }
-          .home-container4 {
+          .home-container06 {
             top: 0px;
             flex: 0 0 auto;
             left: 0px;
@@ -1904,7 +1917,7 @@ iframe{height:320px !important;}
             line-height: 1;
             margin-bottom: var(--dl-space-space-tenunits);
           }
-          .home-container5 {
+          .home-container07 {
             gap: 30px;
             width: 100%;
             display: grid;
@@ -2458,7 +2471,7 @@ iframe{height:320px !important;}
             flex-direction: column;
             background-color: var(--dl-color-gray-900);
           }
-          .home-container6 {
+          .home-container08 {
             direction: ltr;
             padding-top: var(--dl-space-space-fiveunits);
             padding-bottom: var(--dl-space-space-fiveunits);
@@ -2591,11 +2604,11 @@ iframe{height:320px !important;}
             flex-direction: row;
             justify-content: center;
           }
-          .home-container7 {
+          .home-container09 {
             width: 100%;
             height: 280px;
           }
-          .home-container8 {
+          .home-container10 {
             display: contents;
           }
           .home-footer-container {
@@ -2698,7 +2711,7 @@ iframe{height:320px !important;}
               padding-top: var(--dl-space-space-doubleunit);
               padding-bottom: var(--dl-space-space-doubleunit);
             }
-            .home-container2 {
+            .home-container04 {
               width: 100%;
             }
             .home-features-card06 {
@@ -2757,7 +2770,7 @@ iframe{height:320px !important;}
                 rgba(255, 255, 255, 0.92) 100%
               );
             }
-            .home-container7 {
+            .home-container09 {
               width: 100%;
             }
           }
@@ -2847,7 +2860,7 @@ iframe{height:320px !important;}
               margin-top: 115px;
               margin-bottom: 0px;
             }
-            .home-container1 {
+            .home-container03 {
               width: 100%;
             }
             .home-cards-container {
@@ -2933,7 +2946,7 @@ iframe{height:320px !important;}
               font-size: 3em;
               margin-bottom: var(--dl-space-space-tenunits);
             }
-            .home-container5 {
+            .home-container07 {
               margin-bottom: var(--dl-space-space-fourunits);
             }
             .home-features-card06 {
@@ -3156,7 +3169,7 @@ iframe{height:320px !important;}
             .home-get-in-touch {
               max-width: 100%;
             }
-            .home-container2 {
+            .home-container04 {
               height: 280px;
             }
             .home-text074 {
@@ -3237,7 +3250,7 @@ iframe{height:320px !important;}
             .home-get-in-touch1 {
               max-width: 100%;
             }
-            .home-container7 {
+            .home-container09 {
               height: 280px;
             }
             .home-footer {
@@ -3426,7 +3439,7 @@ iframe{height:320px !important;}
             .home-call-now {
               max-width: 100%;
             }
-            .home-container5 {
+            .home-container07 {
               grid-template-columns: repeat(2, 1fr);
             }
             .home-features-card06 {
@@ -3666,7 +3679,7 @@ iframe{height:320px !important;}
             .home-content-container1 {
               padding-left: 0px;
             }
-            .home-container2 {
+            .home-container04 {
               height: 680px;
             }
             .home-call-now {
@@ -3685,7 +3698,7 @@ iframe{height:320px !important;}
             .home-text074 {
               font-size: 34px;
             }
-            .home-container5 {
+            .home-container07 {
               gap: 0;
               grid-template-columns: repeat(1, 1fr);
             }
@@ -3794,7 +3807,7 @@ iframe{height:320px !important;}
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .home-container6 {
+            .home-container08 {
               padding-top: var(--dl-space-space-fiveunits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
@@ -3808,7 +3821,7 @@ iframe{height:320px !important;}
             .home-content-container2 {
               padding-left: 0px;
             }
-            .home-container7 {
+            .home-container09 {
               height: 700px;
             }
             .home-link13 {
