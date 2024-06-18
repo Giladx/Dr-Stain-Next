@@ -28,6 +28,16 @@ const Thanks = (props) => {
           />
         </Head>
         <div className="thanks-container1">
+          <div className="thanks-container2">
+            <Script
+              html={`<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLNTMT38"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->`}
+            ></Script>
+          </div>
+        </div>
+        <div className="thanks-container3">
           <svg viewBox="0 0 1024 1024" className="thanks-icon">
             <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
           </svg>
@@ -37,8 +47,8 @@ const Thanks = (props) => {
             <a className="thanks-link button">בחזרה לדף הבית</a>
           </Link>
         </div>
-        <div className="thanks-container2">
-          <div className="thanks-container3">
+        <div className="thanks-container4">
+          <div className="thanks-container5">
             <Script
               html={`<script type="text/javascript">   
     function Redirect() 
@@ -62,6 +72,12 @@ const Thanks = (props) => {
             flex-direction: column;
           }
           .thanks-container1 {
+            height: 0px;
+          }
+          .thanks-container2 {
+            display: contents;
+          }
+          .thanks-container3 {
             flex: 0 0 auto;
             width: 100%;
             height: 100vh;
@@ -107,7 +123,7 @@ const Thanks = (props) => {
             border-width: 0px;
             text-decoration: none;
           }
-          .thanks-container2 {
+          .thanks-container4 {
             top: 0px;
             right: 0px;
             width: 100%;
@@ -115,7 +131,7 @@ const Thanks = (props) => {
             margin: auto;
             position: absolute;
           }
-          .thanks-container3 {
+          .thanks-container5 {
             display: contents;
           }
         `}
