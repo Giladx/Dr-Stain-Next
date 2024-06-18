@@ -27,7 +27,7 @@ const Home = (props) => {
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/7d68a6ed-ca4e-4aa9-9d31-323fe90e0694/b533e509-1b00-4dcf-842f-d0deb4b1fce1?org_if_sml=1&amp;force_format=original"
           />
         </Head>
-        <div>
+        <div className="home-container01">
           <div className="home-container02">
             <Script
               html={`<!-- Google Tag Manager (noscript) -->
@@ -839,6 +839,9 @@ iframe{height:320px !important;}
             align-items: center;
             flex-direction: column;
             background-color: #f5f5f5;
+          }
+          .home-container01 {
+            height: 0px;
           }
           .home-container02 {
             display: contents;
