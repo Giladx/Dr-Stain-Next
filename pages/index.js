@@ -639,7 +639,7 @@ iframe{height:320px !important;}
               data-autoplay="true"
               data-navigation="true"
               data-pagination="true"
-              data-reverse-direction="true"
+              data-reverse-direction="false"
               className="home-slider swiper"
             >
               <div data-thq="slider-wrapper" className="swiper-wrapper">
